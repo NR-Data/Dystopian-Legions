@@ -1,0 +1,2022 @@
+{
+  "catalogue": {
+    "name": "Republique of France",
+    "id": "ac9207b7-9fb1-5b89-1970-badde33f8eb5",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "47423c1e-c024-1db7-9b5b-1ce40903e208",
+    "gameSystemRevision": 13,
+    "revision": 3,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "selectionEntries": [
+      {
+        "name": "Infantry Officer",
+        "id": "809bccdb-7ae7-e0ce-4e33-a57065cc12dc",
+        "collective": false,
+        "hidden": false,
+        "page": 0,
+        "type": "unit",
+        "categoryLinks": [{"id": "809bccdb-7ae7-e0ce-4e33-a57065cc12dc-0baa64cc-e868-23f3-9b04-d0542751e419", "primary": true, "targetId": "0baa64cc-e868-23f3-9b04-d0542751e419"}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+        "entryLinks": [{"id": "b20e5dcf-db98-c1b8-a610-77a1aa93f259", "targetId": "d73cefd7-682f-abf2-a2f7-4f2059e8d634", "type": "selectionEntry"}],
+        "selectionEntries": [
+          {
+            "name": "Legionnaire Section",
+            "id": "1696a356-0773-06f4-060e-4df90ef5a9a8",
+            "collective": false,
+            "hidden": false,
+            "page": 0,
+            "type": "unit",
+            "categoryLinks": [{"id": "1696a356-0773-06f4-060e-4df90ef5a9a8-c3ad262a-edcb-13c7-0883-bbea6d8cd67e", "primary": true, "targetId": "c3ad262a-edcb-13c7-0883-bbea6d8cd67e"}],
+            "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+            "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+            "selectionEntries": [
+              {
+                "name": "Legionnaire",
+                "id": "3974622d-54e9-43cc-5ee2-a97b476b2125",
+                "collective": false,
+                "hidden": false,
+                "page": 0,
+                "type": "unit",
+                "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 5}],
+                "costs": [{"name": "pts", "typeId": "points", "value": 25}],
+                "infoLinks": [{"id": "f3b3f401-e50f-9bb1-746e-5339c5130157", "targetId": "0888d283-6f6a-8235-accd-efde211ac05b", "type": "profile"}],
+                "modifiers": [
+                  {
+                    "field": "points",
+                    "type": "increment",
+                    "value": 10,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "c8e5b6b3-689c-4949-e0ae-4b43a0a22c1f",
+                            "field": "selections",
+                            "scope": "809bccdb-7ae7-e0ce-4e33-a57065cc12dc",
+                            "shared": true,
+                            "type": "equalTo",
+                            "value": 1
+                          },
+                          {
+                            "childId": "7cf8f900-6860-e09a-86a3-677ec553fd2a",
+                            "field": "selections",
+                            "scope": "809bccdb-7ae7-e0ce-4e33-a57065cc12dc",
+                            "shared": true,
+                            "type": "equalTo",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "field": "points",
+                    "type": "increment",
+                    "value": 2,
+                    "repeats": [
+                      {
+                        "childId": "61a0cc91-3d27-374e-079d-86204a34a5f0",
+                        "field": "selections",
+                        "repeats": 1,
+                        "scope": "809bccdb-7ae7-e0ce-4e33-a57065cc12dc",
+                        "shared": true,
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "points",
+                    "type": "increment",
+                    "value": 3,
+                    "repeats": [
+                      {
+                        "childId": "de8243dc-da24-ed4a-c3f9-7af71b1e37f0",
+                        "field": "selections",
+                        "repeats": 1,
+                        "scope": "809bccdb-7ae7-e0ce-4e33-a57065cc12dc",
+                        "shared": true,
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "name": "Aiguille Type 7 Rifle",
+                    "id": "99204e5f-bb64-eb9d-82d7-e97d390bb854",
+                    "collective": true,
+                    "hidden": false,
+                    "page": 0,
+                    "type": "upgrade",
+                    "constraints": [
+                      {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+                      {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+                    ],
+                    "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+                    "infoLinks": [{"id": "7d472f7b-8d9b-1539-07b1-bcf54fb2b09e", "targetId": "b5fcd797-bb35-898f-04e2-0409519cf6f8", "type": "profile"}]
+                  }
+                ]
+              },
+              {
+                "name": "Musician",
+                "id": "e7e09d16-193b-f252-efed-afca1111fe0c",
+                "collective": false,
+                "hidden": false,
+                "page": 0,
+                "type": "model",
+                "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+                "costs": [{"name": "pts", "typeId": "points", "value": 20}],
+                "infoLinks": [{"id": "a71fad9e-5ffe-3108-5ed5-54bbbeca8bc4", "targetId": "0246529b-9b5a-1dde-7365-68ca2e410df4", "type": "profile"}]
+              }
+            ]
+          },
+          {
+            "name": "Infantry Officer",
+            "id": "4aaa1c39-208e-04e6-9af4-4d1134e078a9",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+              {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+            ],
+            "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+            "infoLinks": [{"id": "a638e0a1-8191-a01d-c702-07f427d3c05e", "targetId": "8da3a5e4-ae1f-be0b-50e9-90465e56b750", "type": "profile"}],
+            "modifiers": [
+              {
+                "field": "points",
+                "type": "increment",
+                "value": 2,
+                "repeats": [
+                  {
+                    "childId": "61a0cc91-3d27-374e-079d-86204a34a5f0",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "809bccdb-7ae7-e0ce-4e33-a57065cc12dc",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "points",
+                "type": "increment",
+                "value": 3,
+                "repeats": [
+                  {
+                    "childId": "de8243dc-da24-ed4a-c3f9-7af71b1e37f0",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "809bccdb-7ae7-e0ce-4e33-a57065cc12dc",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "rules": [
+              {
+                "name": "Fire and Maneouver!",
+                "id": "c656e7fa-eb7a-57e5-de2d-470e9c1d3e97",
+                "description": "CP Cost = 2\nSuccesses = 2\nIssued in - Section's Command Segment\n\nThe Section gains the Run and Gun MAR for this activation.",
+                "hidden": false
+              }
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "Weapon",
+                "id": "b26a97ab-f262-b903-cee2-50badecb6725",
+                "collective": false,
+                "hidden": false,
+                "constraints": [
+                  {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+                  {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+                ],
+                "selectionEntries": [
+                  {
+                    "name": ".44 Pistol",
+                    "id": "52b21c54-e3d5-9329-e674-9c629d42d614",
+                    "collective": false,
+                    "hidden": false,
+                    "page": 0,
+                    "type": "upgrade",
+                    "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+                    "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+                    "infoLinks": [{"id": "9c118817-d2fe-30c4-3901-f6130a99d13e", "targetId": "0508542a-ab44-7771-e266-551f6677e0aa", "type": "profile"}]
+                  },
+                  {
+                    "name": "Boiset Rifle Grenade Launcher",
+                    "id": "b07aed36-e523-0f57-006b-42a055a96841",
+                    "collective": false,
+                    "hidden": false,
+                    "page": 0,
+                    "type": "upgrade",
+                    "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+                    "costs": [{"name": "pts", "typeId": "points", "value": 5}],
+                    "infoLinks": [{"id": "d7d72ada-7765-9ef3-aba4-fa43e33156ee", "targetId": "abb829e8-fe73-5607-992d-0a9696275fc7", "type": "profile"}]
+                  }
+                ]
+              },
+              {
+                "name": "Command Level",
+                "id": "41facced-6b41-e2a5-1cd9-7704de904406",
+                "collective": false,
+                "hidden": false,
+                "constraints": [
+                  {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+                  {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+                ],
+                "selectionEntries": [
+                  {
+                    "name": "1 2nd Lieutenant",
+                    "id": "796c5afa-7d75-db45-8794-b006645aca17",
+                    "collective": false,
+                    "hidden": false,
+                    "type": "upgrade",
+                    "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+                    "costs": [{"name": "pts", "typeId": "points", "value": 75}],
+                    "rules": [
+                      {
+                        "name": "1 2nd Lieutenant",
+                        "id": "f2b03d03-dabf-0bda-9fd6-778ef70dc048",
+                        "description": "CP - 4\nCommand Range 4\"\nExperience Level Regular",
+                        "hidden": false
+                      }
+                    ]
+                  },
+                  {
+                    "name": "2 1st Lieutenant",
+                    "id": "06a55934-6f02-ef48-3566-bf04cd18fda7",
+                    "collective": false,
+                    "hidden": false,
+                    "type": "upgrade",
+                    "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+                    "costs": [{"name": "pts", "typeId": "points", "value": 100}],
+                    "rules": [
+                      {
+                        "name": "2 1st Lieutenant",
+                        "id": "8bb2bf85-e4cd-6171-5bfd-6ac1c88ca131",
+                        "description": "CP - 5\nCommand Range 6\"\nExperience Level Regular",
+                        "hidden": false
+                      }
+                    ]
+                  },
+                  {
+                    "name": "3 Captain",
+                    "id": "c8e5b6b3-689c-4949-e0ae-4b43a0a22c1f",
+                    "collective": false,
+                    "hidden": false,
+                    "type": "upgrade",
+                    "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+                    "costs": [{"name": "pts", "typeId": "points", "value": 150}],
+                    "rules": [{"name": "3 Captain", "id": "a2112a2b-3519-b3e7-1843-9761f4362d38", "description": "CP - 6\nCommand Range 6\"\nExperience Level Veteran", "hidden": false}]
+                  },
+                  {
+                    "name": "4 Major",
+                    "id": "7cf8f900-6860-e09a-86a3-677ec553fd2a",
+                    "collective": false,
+                    "hidden": false,
+                    "type": "upgrade",
+                    "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+                    "costs": [{"name": "pts", "typeId": "points", "value": 175}],
+                    "rules": [{"name": "4 Major", "id": "5f66a5df-a23f-bdf4-df30-b1b4ddaa0bd2", "description": "CP - 8\nCommand Range 8\"\nExperience Level Veteran", "hidden": false}]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Mercantour Truck",
+            "id": "62bdc168-13df-ed65-86a7-c18c7f55b617",
+            "collective": false,
+            "hidden": false,
+            "page": 0,
+            "type": "upgrade",
+            "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+            "costs": [{"name": "pts", "typeId": "points", "value": 65}],
+            "infoLinks": [{"id": "dfc7ac4c-38d7-3fcb-7393-eb507643921c", "targetId": "ef22fc4a-59d1-340a-0af0-e86fde59e21b", "type": "profile"}]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Field Equipment",
+            "id": "d58be9a9-95b5-2443-3276-a96586382118",
+            "collective": false,
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "name": "Flashbangs",
+                "id": "61a0cc91-3d27-374e-079d-86204a34a5f0",
+                "collective": true,
+                "hidden": false,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}]
+              },
+              {
+                "name": "Tank Mines",
+                "id": "de8243dc-da24-ed4a-c3f9-7af71b1e37f0",
+                "collective": true,
+                "hidden": false,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Legionnaire HMG Section",
+        "id": "820a26ae-2eb8-8faa-39b0-9ec0f9dfd653",
+        "collective": false,
+        "hidden": false,
+        "page": 0,
+        "type": "unit",
+        "categoryLinks": [{"id": "820a26ae-2eb8-8faa-39b0-9ec0f9dfd653-74a5e1f2-636a-5230-b965-dbb3b4efed2f", "primary": true, "targetId": "74a5e1f2-636a-5230-b965-dbb3b4efed2f"}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+        "selectionEntries": [
+          {
+            "name": "Legionnaire",
+            "id": "b6befa69-2dc6-e5b1-6a1b-ea666c0862d6",
+            "collective": false,
+            "hidden": false,
+            "page": 0,
+            "type": "unit",
+            "constraints": [
+              {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 2},
+              {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 7}
+            ],
+            "costs": [{"name": "pts", "typeId": "points", "value": 25}],
+            "infoLinks": [{"id": "a701dd4f-c7c4-99e8-8a4c-431c86290936", "targetId": "0888d283-6f6a-8235-accd-efde211ac05b", "type": "profile"}],
+            "modifiers": [
+              {
+                "field": "maxSelections",
+                "type": "decrement",
+                "value": 1,
+                "repeats": [
+                  {
+                    "childId": "e5ca5396-1577-2788-db27-b8f43117c7f4",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "820a26ae-2eb8-8faa-39b0-9ec0f9dfd653",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "minSelections",
+                "type": "decrement",
+                "value": 2,
+                "repeats": [
+                  {
+                    "childId": "972b1cb6-3628-1f9d-afb7-928bb3008302",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "820a26ae-2eb8-8faa-39b0-9ec0f9dfd653",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "maxSelections",
+                "type": "decrement",
+                "value": 2,
+                "repeats": [
+                  {
+                    "childId": "972b1cb6-3628-1f9d-afb7-928bb3008302",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "820a26ae-2eb8-8faa-39b0-9ec0f9dfd653",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "points",
+                "type": "increment",
+                "value": 10,
+                "repeats": [
+                  {
+                    "childId": "0fb11e81-13de-6560-5a53-8994cabf54f3",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "820a26ae-2eb8-8faa-39b0-9ec0f9dfd653",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "minSelections",
+                "type": "decrement",
+                "value": 1,
+                "repeats": [
+                  {
+                    "childId": "e5ca5396-1577-2788-db27-b8f43117c7f4",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "820a26ae-2eb8-8faa-39b0-9ec0f9dfd653",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Aiguille Type 7 Rifle",
+                "id": "7448e5bc-f8dc-d665-8325-1601db0a5ddc",
+                "collective": true,
+                "hidden": false,
+                "page": 0,
+                "type": "upgrade",
+                "constraints": [
+                  {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+                  {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+                ],
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+                "infoLinks": [{"id": "a164a8af-fd6b-7319-c6dc-658e44151308", "targetId": "b5fcd797-bb35-898f-04e2-0409519cf6f8", "type": "profile"}]
+              }
+            ]
+          },
+          {
+            "name": "Legionnaire Sergeant",
+            "id": "e5ca5396-1577-2788-db27-b8f43117c7f4",
+            "collective": false,
+            "hidden": false,
+            "page": 0,
+            "type": "unit",
+            "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+            "costs": [{"name": "pts", "typeId": "points", "value": 30}],
+            "infoLinks": [
+              {
+                "id": "6ffdad99-e969-eac2-4287-edc021a4c0b0",
+                "targetId": "fee713d6-8e2d-a9f3-158f-2936957f6078",
+                "type": "profile",
+                "modifiers": [{"field": "hidden", "type": "set", "value": true}]
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "points",
+                "type": "increment",
+                "value": 10,
+                "repeats": [
+                  {
+                    "childId": "0fb11e81-13de-6560-5a53-8994cabf54f3",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "820a26ae-2eb8-8faa-39b0-9ec0f9dfd653",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "rules": [
+              {
+                "name": "NCO",
+                "id": "467361bf-aad9-1518-c112-1d025e1dd599",
+                "description": "A Section containing a model with the NCO MAR may spend Command Points without being within the Command Distance of an Officer, however when doing this ANY Command Point Cost is DOUBLED.",
+                "hidden": false,
+                "page": 0
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Roure SMG",
+                "id": "37d51146-ab30-7908-d26a-8a83a90199bc",
+                "collective": false,
+                "hidden": false,
+                "page": 0,
+                "type": "upgrade",
+                "constraints": [
+                  {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+                  {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+                ],
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+                "infoLinks": [{"id": "37a41e16-42de-fb96-4a94-1235bc74decb", "targetId": "998fedef-0e97-073f-3257-b60a2ba52689", "type": "profile"}]
+              },
+              {
+                "name": "Staff Sergeant",
+                "id": "b51efbe6-a3a4-dd88-cafb-4f5f31d8feec",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+                "costs": [{"name": "pts", "typeId": "points", "value": 15}],
+                "infoLinks": [{"id": "dab64782-7779-3f7c-b78b-1b963a9a29ee", "targetId": "5009c956-51d4-80e9-c5db-e0e28e5a3f69", "type": "profile"}]
+              }
+            ]
+          },
+          {
+            "name": "Gun Team",
+            "id": "972b1cb6-3628-1f9d-afb7-928bb3008302",
+            "collective": false,
+            "hidden": false,
+            "page": 0,
+            "type": "unit",
+            "constraints": [
+              {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+              {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 3}
+            ],
+            "costs": [{"name": "pts", "typeId": "points", "value": 60}],
+            "infoLinks": [{"id": "ac6141d2-fc81-bc0c-53b7-fd9850aa0ef1", "targetId": "947a1a0c-51d8-0746-83b6-01ddecb606ea", "type": "profile"}],
+            "modifiers": [
+              {
+                "field": "points",
+                "type": "increment",
+                "value": 20,
+                "repeats": [
+                  {
+                    "childId": "0fb11e81-13de-6560-5a53-8994cabf54f3",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "820a26ae-2eb8-8faa-39b0-9ec0f9dfd653",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "points",
+                "type": "increment",
+                "value": 5,
+                "conditions": [
+                  {
+                    "childId": "972b1cb6-3628-1f9d-afb7-928bb3008302",
+                    "field": "selections",
+                    "scope": "820a26ae-2eb8-8faa-39b0-9ec0f9dfd653",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 2
+                  }
+                ]
+              },
+              {
+                "field": "points",
+                "type": "increment",
+                "value": 6.666667,
+                "conditions": [
+                  {
+                    "childId": "972b1cb6-3628-1f9d-afb7-928bb3008302",
+                    "field": "selections",
+                    "scope": "820a26ae-2eb8-8faa-39b0-9ec0f9dfd653",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 3
+                  }
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Chapuis HMG",
+                "id": "30574d05-a88b-80f4-8300-add94d6a12cc",
+                "collective": true,
+                "hidden": false,
+                "page": 0,
+                "type": "upgrade",
+                "constraints": [
+                  {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+                  {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+                ],
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+                "infoLinks": [{"id": "9f56f96a-ad20-3a0b-1ca8-c57aa516a86d", "targetId": "da398ebb-e8d6-5d59-53c8-36df12e7fd7a", "type": "profile"}]
+              }
+            ]
+          },
+          {
+            "name": "Mercantour Truck",
+            "id": "67430a9c-44de-13e2-b99e-e4d52d5ef036",
+            "collective": false,
+            "hidden": false,
+            "page": 0,
+            "type": "upgrade",
+            "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+            "costs": [{"name": "pts", "typeId": "points", "value": 65}],
+            "infoLinks": [{"id": "3e5d4c32-adf5-7b96-c19b-605c24b3e13b", "targetId": "ef22fc4a-59d1-340a-0af0-e86fde59e21b", "type": "profile"}]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Experience Level",
+            "id": "0a6e34ba-8c25-ca7e-17b5-f277db0b878f",
+            "collective": false,
+            "hidden": false,
+            "constraints": [
+              {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+              {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+            ],
+            "selectionEntries": [
+              {
+                "name": "Regular",
+                "id": "73f8adc2-9128-f0ce-1891-a06306bfc800",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}]
+              },
+              {
+                "name": "Veteran",
+                "id": "0fb11e81-13de-6560-5a53-8994cabf54f3",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Legionnaire Section",
+        "id": "7c10314a-c2d1-e166-3a1d-4a25c02385ba",
+        "collective": false,
+        "hidden": false,
+        "page": 0,
+        "type": "unit",
+        "categoryLinks": [{"id": "7c10314a-c2d1-e166-3a1d-4a25c02385ba-c3ad262a-edcb-13c7-0883-bbea6d8cd67e", "primary": true, "targetId": "c3ad262a-edcb-13c7-0883-bbea6d8cd67e"}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+        "selectionEntries": [
+          {
+            "name": "Legionnaire",
+            "id": "467f0efc-f520-aac4-dc2d-4b41d489d5d0",
+            "collective": false,
+            "hidden": false,
+            "page": 0,
+            "type": "unit",
+            "constraints": [
+              {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 6},
+              {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 10}
+            ],
+            "costs": [{"name": "pts", "typeId": "points", "value": 25}],
+            "infoLinks": [{"id": "9fe67d1e-3915-fddf-0ef3-9a39f1448d7f", "targetId": "0888d283-6f6a-8235-accd-efde211ac05b", "type": "profile"}],
+            "modifiers": [
+              {
+                "field": "minSelections",
+                "type": "decrement",
+                "value": 1,
+                "repeats": [
+                  {
+                    "childId": "30bf80c1-1899-52e5-bd36-099d6ec0a7ae",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "7c10314a-c2d1-e166-3a1d-4a25c02385ba",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "maxSelections",
+                "type": "decrement",
+                "value": 1,
+                "repeats": [
+                  {
+                    "childId": "0d5442cd-f7bf-4fef-99bf-da0088276228",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "7c10314a-c2d1-e166-3a1d-4a25c02385ba",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "minSelections",
+                "type": "decrement",
+                "value": 1,
+                "repeats": [
+                  {
+                    "childId": "0d5442cd-f7bf-4fef-99bf-da0088276228",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "7c10314a-c2d1-e166-3a1d-4a25c02385ba",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "maxSelections",
+                "type": "decrement",
+                "value": 1,
+                "repeats": [
+                  {
+                    "childId": "00c4f4e6-27d3-c399-164e-9b2fa92f51e6",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "7c10314a-c2d1-e166-3a1d-4a25c02385ba",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "minSelections",
+                "type": "decrement",
+                "value": 2,
+                "repeats": [
+                  {
+                    "childId": "d1ab198c-624f-1a5d-b5e2-1b48b0119bf8",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "7c10314a-c2d1-e166-3a1d-4a25c02385ba",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "maxSelections",
+                "type": "decrement",
+                "value": 2,
+                "repeats": [
+                  {
+                    "childId": "d1ab198c-624f-1a5d-b5e2-1b48b0119bf8",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "7c10314a-c2d1-e166-3a1d-4a25c02385ba",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "points",
+                "type": "increment",
+                "value": 5,
+                "conditions": [
+                  {
+                    "childId": "afd829e4-cf54-5cab-0f9e-9f31db3b670c",
+                    "field": "selections",
+                    "scope": "7c10314a-c2d1-e166-3a1d-4a25c02385ba",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 0
+                  }
+                ],
+                "repeats": [
+                  {
+                    "childId": "832776d0-c4e8-c993-e2ce-59ec155fb1d6",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "7c10314a-c2d1-e166-3a1d-4a25c02385ba",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "points",
+                "type": "increment",
+                "value": 10,
+                "repeats": [
+                  {
+                    "childId": "d1b6c17f-49ce-e6f8-6387-81aae3251fed",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "7c10314a-c2d1-e166-3a1d-4a25c02385ba",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "maxSelections",
+                "type": "decrement",
+                "value": 1,
+                "repeats": [
+                  {
+                    "childId": "30bf80c1-1899-52e5-bd36-099d6ec0a7ae",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "7c10314a-c2d1-e166-3a1d-4a25c02385ba",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "minSelections",
+                "type": "decrement",
+                "value": 1,
+                "repeats": [
+                  {
+                    "childId": "00c4f4e6-27d3-c399-164e-9b2fa92f51e6",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "7c10314a-c2d1-e166-3a1d-4a25c02385ba",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "points",
+                "type": "increment",
+                "value": 3,
+                "conditions": [
+                  {
+                    "childId": "afd829e4-cf54-5cab-0f9e-9f31db3b670c",
+                    "field": "selections",
+                    "scope": "7c10314a-c2d1-e166-3a1d-4a25c02385ba",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ],
+                "repeats": [
+                  {
+                    "childId": "832776d0-c4e8-c993-e2ce-59ec155fb1d6",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "7c10314a-c2d1-e166-3a1d-4a25c02385ba",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Aiguille Type 7 Rifle",
+                "id": "166a09b7-ef4f-3eb2-2df9-5b26d6ca7c90",
+                "collective": true,
+                "hidden": false,
+                "page": 0,
+                "type": "upgrade",
+                "constraints": [
+                  {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+                  {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+                ],
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+                "infoLinks": [{"id": "39982337-4f7d-9f38-fbd5-bf1bddfefade", "targetId": "b5fcd797-bb35-898f-04e2-0409519cf6f8", "type": "profile"}]
+              }
+            ]
+          },
+          {
+            "name": "Legionnaire Rifle Grenade",
+            "id": "30bf80c1-1899-52e5-bd36-099d6ec0a7ae",
+            "collective": false,
+            "hidden": false,
+            "page": 0,
+            "type": "unit",
+            "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 2}],
+            "costs": [{"name": "pts", "typeId": "points", "value": 35}],
+            "infoLinks": [{"id": "f9746358-1b2b-06e4-32c2-f3206ac29c5f", "targetId": "0888d283-6f6a-8235-accd-efde211ac05b", "type": "profile"}],
+            "modifiers": [
+              {
+                "field": "points",
+                "type": "increment",
+                "value": 10,
+                "repeats": [
+                  {
+                    "childId": "d1b6c17f-49ce-e6f8-6387-81aae3251fed",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "7c10314a-c2d1-e166-3a1d-4a25c02385ba",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "points",
+                "type": "increment",
+                "value": 5,
+                "repeats": [
+                  {
+                    "childId": "832776d0-c4e8-c993-e2ce-59ec155fb1d6",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "7c10314a-c2d1-e166-3a1d-4a25c02385ba",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "maxSelections",
+                "type": "increment",
+                "value": 1,
+                "repeats": [
+                  {
+                    "childId": "afd829e4-cf54-5cab-0f9e-9f31db3b670c",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "7c10314a-c2d1-e166-3a1d-4a25c02385ba",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "points",
+                "type": "decrement",
+                "value": 2,
+                "conditions": [
+                  {
+                    "childId": "afd829e4-cf54-5cab-0f9e-9f31db3b670c",
+                    "field": "selections",
+                    "scope": "7c10314a-c2d1-e166-3a1d-4a25c02385ba",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ],
+                "repeats": [
+                  {
+                    "childId": "832776d0-c4e8-c993-e2ce-59ec155fb1d6",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "7c10314a-c2d1-e166-3a1d-4a25c02385ba",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Boiset Rifle Grenade",
+                "id": "867906e0-2aca-7895-1250-0656b25283d0",
+                "collective": true,
+                "hidden": false,
+                "page": 0,
+                "type": "upgrade",
+                "constraints": [
+                  {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+                  {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+                ],
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+                "infoLinks": [{"id": "8986c1ab-8249-21dc-5ea3-077602c4255a", "targetId": "abb829e8-fe73-5607-992d-0a9696275fc7", "type": "profile"}]
+              }
+            ]
+          },
+          {
+            "name": "Legionnaire Sergeant",
+            "id": "0d5442cd-f7bf-4fef-99bf-da0088276228",
+            "collective": false,
+            "hidden": false,
+            "page": 0,
+            "type": "unit",
+            "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+            "costs": [{"name": "pts", "typeId": "points", "value": 30}],
+            "infoLinks": [
+              {
+                "id": "cc450127-e303-c443-bc87-68eb192035c0",
+                "targetId": "fee713d6-8e2d-a9f3-158f-2936957f6078",
+                "type": "profile",
+                "modifiers": [{"field": "hidden", "type": "set", "value": true}]
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "points",
+                "type": "increment",
+                "value": 10,
+                "repeats": [
+                  {
+                    "childId": "d1b6c17f-49ce-e6f8-6387-81aae3251fed",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "7c10314a-c2d1-e166-3a1d-4a25c02385ba",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "points",
+                "type": "increment",
+                "value": 5,
+                "repeats": [
+                  {
+                    "childId": "832776d0-c4e8-c993-e2ce-59ec155fb1d6",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "7c10314a-c2d1-e166-3a1d-4a25c02385ba",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "points",
+                "type": "decrement",
+                "value": 2,
+                "conditions": [
+                  {
+                    "childId": "afd829e4-cf54-5cab-0f9e-9f31db3b670c",
+                    "field": "selections",
+                    "scope": "7c10314a-c2d1-e166-3a1d-4a25c02385ba",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ],
+                "repeats": [
+                  {
+                    "childId": "832776d0-c4e8-c993-e2ce-59ec155fb1d6",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "7c10314a-c2d1-e166-3a1d-4a25c02385ba",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "rules": [
+              {
+                "name": "NCO",
+                "id": "f6e9d107-632b-6535-ba3a-68e342350148",
+                "description": "A Section containing a model with the NCO MAR may spend Command Points without being within the Command Distance of an Officer, however when doing this ANY Command Point Cost is DOUBLED.",
+                "hidden": false,
+                "page": 0
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Roure SMG",
+                "id": "bf04980a-2fff-f004-e020-701459004b2f",
+                "collective": false,
+                "hidden": false,
+                "page": 0,
+                "type": "upgrade",
+                "constraints": [
+                  {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+                  {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+                ],
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+                "infoLinks": [{"id": "ec878740-b425-e329-a6e6-e8a2ea2e067b", "targetId": "998fedef-0e97-073f-3257-b60a2ba52689", "type": "profile"}]
+              },
+              {
+                "name": "Staff Sergeant",
+                "id": "cf896b9a-a457-c15f-971f-dd9d7d88adb5",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+                "costs": [{"name": "pts", "typeId": "points", "value": 15}],
+                "infoLinks": [{"id": "15a93ee0-bf9e-89f3-f64e-d3b08c69c265", "targetId": "5009c956-51d4-80e9-c5db-e0e28e5a3f69", "type": "profile"}]
+              }
+            ]
+          },
+          {
+            "name": "Musician",
+            "id": "57bbcf0e-e54b-ae16-3f54-27da3a708e3d",
+            "collective": false,
+            "hidden": false,
+            "page": 0,
+            "type": "model",
+            "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+            "costs": [{"name": "pts", "typeId": "points", "value": 20}],
+            "infoLinks": [{"id": "5c10e0b3-8300-9243-8064-b1687a6f56d7", "targetId": "0246529b-9b5a-1dde-7365-68ca2e410df4", "type": "profile"}]
+          },
+          {
+            "name": "Gun Team",
+            "id": "d1ab198c-624f-1a5d-b5e2-1b48b0119bf8",
+            "collective": false,
+            "hidden": false,
+            "page": 0,
+            "type": "unit",
+            "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+            "costs": [{"name": "pts", "typeId": "points", "value": 70}],
+            "infoLinks": [{"id": "17b13810-fcc1-3edf-1448-733329600540", "targetId": "947a1a0c-51d8-0746-83b6-01ddecb606ea", "type": "profile"}],
+            "modifiers": [
+              {
+                "field": "maxSelections",
+                "type": "decrement",
+                "value": 1,
+                "repeats": [
+                  {
+                    "childId": "afd829e4-cf54-5cab-0f9e-9f31db3b670c",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "7c10314a-c2d1-e166-3a1d-4a25c02385ba",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "maxSelections",
+                "type": "increment",
+                "value": 1,
+                "repeats": [
+                  {
+                    "childId": "959233ca-e760-9063-3370-cd20b492d979",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "7c10314a-c2d1-e166-3a1d-4a25c02385ba",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "points",
+                "type": "increment",
+                "value": 20,
+                "repeats": [
+                  {
+                    "childId": "d1b6c17f-49ce-e6f8-6387-81aae3251fed",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "7c10314a-c2d1-e166-3a1d-4a25c02385ba",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "points",
+                "type": "increment",
+                "value": 5,
+                "repeats": [
+                  {
+                    "childId": "832776d0-c4e8-c993-e2ce-59ec155fb1d6",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "7c10314a-c2d1-e166-3a1d-4a25c02385ba",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "points",
+                "type": "decrement",
+                "value": 10,
+                "repeats": [
+                  {
+                    "childId": "959233ca-e760-9063-3370-cd20b492d979",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "7c10314a-c2d1-e166-3a1d-4a25c02385ba",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "points",
+                "type": "increment",
+                "value": 5,
+                "conditions": [
+                  {
+                    "childId": "d1ab198c-624f-1a5d-b5e2-1b48b0119bf8",
+                    "field": "selections",
+                    "scope": "7c10314a-c2d1-e166-3a1d-4a25c02385ba",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 2
+                  }
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Chapuis HMG",
+                "id": "09c3aefd-d5e6-1bcc-21b8-c81ceaf24ec5",
+                "collective": true,
+                "hidden": false,
+                "page": 0,
+                "type": "upgrade",
+                "constraints": [
+                  {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+                  {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+                ],
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+                "infoLinks": [{"id": "5a4c757d-63ba-fcce-0ed8-8c07a9382244", "targetId": "da398ebb-e8d6-5d59-53c8-36df12e7fd7a", "type": "profile"}]
+              }
+            ]
+          },
+          {
+            "name": "Legionnaire LMG",
+            "id": "00c4f4e6-27d3-c399-164e-9b2fa92f51e6",
+            "collective": false,
+            "hidden": false,
+            "page": 0,
+            "type": "unit",
+            "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 0}],
+            "costs": [{"name": "pts", "typeId": "points", "value": 35}],
+            "infoLinks": [{"id": "836d1437-90db-ce13-f309-55c3a419a220", "targetId": "0888d283-6f6a-8235-accd-efde211ac05b", "type": "profile"}],
+            "modifiers": [
+              {
+                "field": "points",
+                "type": "increment",
+                "value": 10,
+                "repeats": [
+                  {
+                    "childId": "d1b6c17f-49ce-e6f8-6387-81aae3251fed",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "7c10314a-c2d1-e166-3a1d-4a25c02385ba",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "points",
+                "type": "increment",
+                "value": 5,
+                "repeats": [
+                  {
+                    "childId": "832776d0-c4e8-c993-e2ce-59ec155fb1d6",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "7c10314a-c2d1-e166-3a1d-4a25c02385ba",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "maxSelections",
+                "type": "set",
+                "value": 2,
+                "repeats": [
+                  {
+                    "childId": "afd829e4-cf54-5cab-0f9e-9f31db3b670c",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "7c10314a-c2d1-e166-3a1d-4a25c02385ba",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "points",
+                "type": "decrement",
+                "value": 2,
+                "conditions": [
+                  {
+                    "childId": "afd829e4-cf54-5cab-0f9e-9f31db3b670c",
+                    "field": "selections",
+                    "scope": "7c10314a-c2d1-e166-3a1d-4a25c02385ba",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ],
+                "repeats": [
+                  {
+                    "childId": "832776d0-c4e8-c993-e2ce-59ec155fb1d6",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "7c10314a-c2d1-e166-3a1d-4a25c02385ba",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Fouilouse LMG",
+                "id": "d3103adc-7c32-58bf-e9d7-dacf4bc371fd",
+                "collective": true,
+                "hidden": false,
+                "page": 0,
+                "type": "upgrade",
+                "constraints": [
+                  {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+                  {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+                ],
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+                "infoLinks": [{"id": "baf83308-5fe3-692c-8f65-3c82b520c862", "targetId": "c13dfed9-f255-b75a-7e65-549c8b25d1aa", "type": "profile"}]
+              }
+            ]
+          },
+          {
+            "name": "Mercantour Truck",
+            "id": "591862e1-51a7-6009-b4ac-be35f2908dbd",
+            "collective": false,
+            "hidden": false,
+            "page": 0,
+            "type": "upgrade",
+            "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+            "costs": [{"name": "pts", "typeId": "points", "value": 70}],
+            "infoLinks": [{"id": "00846b85-e152-9440-52fd-a830a03d8a9b", "targetId": "ef22fc4a-59d1-340a-0af0-e86fde59e21b", "type": "profile"}]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Experience Level",
+            "id": "9b4a8e0c-4cf5-3ce2-5750-3896e345cf19",
+            "collective": false,
+            "hidden": false,
+            "constraints": [
+              {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+              {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+            ],
+            "selectionEntries": [
+              {
+                "name": "Regular",
+                "id": "564344c2-e1a7-4eef-831e-58b90b9c4491",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}]
+              },
+              {
+                "name": "Veteran",
+                "id": "d1b6c17f-49ce-e6f8-6387-81aae3251fed",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}]
+              }
+            ]
+          },
+          {
+            "name": "Section Type",
+            "id": "ef92794c-63e6-ae05-f05a-39375e572f83",
+            "collective": false,
+            "hidden": false,
+            "constraints": [
+              {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+              {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+            ],
+            "selectionEntries": [
+              {
+                "name": "Battle",
+                "id": "a82c5fa2-f6c4-8815-5cdb-5c68ef96cd2a",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}]
+              },
+              {
+                "name": "Assault",
+                "id": "afd829e4-cf54-5cab-0f9e-9f31db3b670c",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [
+                  {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1},
+                  {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "type": "max", "value": -1}
+                ],
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+                "modifiers": [
+                  {
+                    "field": "maxInRoster",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {
+                        "childId": "7c10314a-c2d1-e166-3a1d-4a25c02385ba",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "equalTo",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "HMG",
+                "id": "959233ca-e760-9063-3370-cd20b492d979",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [
+                  {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1},
+                  {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "type": "max", "value": -1}
+                ],
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+                "modifiers": [
+                  {
+                    "field": "maxInRoster",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {
+                        "childId": "7c10314a-c2d1-e166-3a1d-4a25c02385ba",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "equalTo",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Field Equipment",
+            "id": "da9d84d9-154f-af85-6136-4b1483e019b7",
+            "collective": false,
+            "hidden": false,
+            "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+            "selectionEntries": [
+              {
+                "name": "Flashbangs and Tank Mines",
+                "id": "832776d0-c4e8-c993-e2ce-59ec155fb1d6",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Marine Section",
+        "id": "bcdaf301-31d5-6484-daed-4d959a1eef7a",
+        "collective": false,
+        "hidden": false,
+        "page": 0,
+        "type": "unit",
+        "categoryLinks": [{"id": "bcdaf301-31d5-6484-daed-4d959a1eef7a-c3ad262a-edcb-13c7-0883-bbea6d8cd67e", "primary": true, "targetId": "c3ad262a-edcb-13c7-0883-bbea6d8cd67e"}],
+        "constraints": [{"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "type": "max", "value": 2}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+        "modifiers": [
+          {
+            "field": "maxInRoster",
+            "type": "set",
+            "value": 0,
+            "conditions": [
+              {
+                "childId": "7c10314a-c2d1-e166-3a1d-4a25c02385ba",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Marine",
+            "id": "29261959-7c11-0383-4faa-0440bf5cd00f",
+            "collective": false,
+            "hidden": false,
+            "page": 0,
+            "type": "unit",
+            "constraints": [
+              {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 4},
+              {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 6}
+            ],
+            "costs": [{"name": "pts", "typeId": "points", "value": 45}],
+            "infoLinks": [{"id": "50c38d52-d6a2-b91d-3e1e-50f27cc397ca", "targetId": "175d1ad5-afc5-49af-4bea-e7e7114d467b", "type": "profile"}],
+            "modifiers": [
+              {
+                "field": "minSelections",
+                "type": "decrement",
+                "value": 1,
+                "repeats": [
+                  {
+                    "childId": "0e5738a3-8f19-7af7-1d75-ef18fd359429",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "bcdaf301-31d5-6484-daed-4d959a1eef7a",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "maxSelections",
+                "type": "decrement",
+                "value": 1,
+                "repeats": [
+                  {
+                    "childId": "0e5738a3-8f19-7af7-1d75-ef18fd359429",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "bcdaf301-31d5-6484-daed-4d959a1eef7a",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "minSelections",
+                "type": "decrement",
+                "value": 1,
+                "repeats": [
+                  {
+                    "childId": "b780611c-c8e3-b18e-c42f-8c8f861f735b",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "bcdaf301-31d5-6484-daed-4d959a1eef7a",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "maxSelections",
+                "type": "decrement",
+                "value": 1,
+                "repeats": [
+                  {
+                    "childId": "b780611c-c8e3-b18e-c42f-8c8f861f735b",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "bcdaf301-31d5-6484-daed-4d959a1eef7a",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Heat Gun",
+                "id": "1f520811-139c-efab-296f-101879acac9a",
+                "collective": true,
+                "hidden": false,
+                "page": 0,
+                "type": "upgrade",
+                "constraints": [
+                  {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+                  {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+                ],
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+                "infoLinks": [{"id": "a5af32aa-cab7-01fd-4f4f-c7055a3b3a3c", "targetId": "357029ce-537f-7122-1ef7-d172acce21d0", "type": "profile"}]
+              }
+            ]
+          },
+          {
+            "name": "Marine Specialist",
+            "id": "0e5738a3-8f19-7af7-1d75-ef18fd359429",
+            "collective": false,
+            "hidden": false,
+            "page": 0,
+            "type": "unit",
+            "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+            "costs": [{"name": "pts", "typeId": "points", "value": 50}],
+            "infoLinks": [{"id": "991b05f2-ca10-4283-fc6b-4ea76d514bb2", "targetId": "13cff825-7c65-2d5d-c564-bc63273c26d9", "type": "profile"}],
+            "selectionEntries": [
+              {
+                "name": "Type 4 Heat Ray",
+                "id": "31ea08aa-bedc-7d81-8db9-9b310d4c386f",
+                "collective": true,
+                "hidden": false,
+                "page": 0,
+                "type": "upgrade",
+                "constraints": [
+                  {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+                  {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+                ],
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+                "infoLinks": [{"id": "a978032b-f526-2c81-c8ac-b7df0bb405e6", "targetId": "b63ea0f0-b789-8e2e-05ed-3ffe67cfcc34", "type": "profile"}]
+              }
+            ]
+          },
+          {
+            "name": "Marine Sergeant",
+            "id": "b780611c-c8e3-b18e-c42f-8c8f861f735b",
+            "collective": false,
+            "hidden": false,
+            "page": 0,
+            "type": "unit",
+            "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+            "costs": [{"name": "pts", "typeId": "points", "value": 65}],
+            "infoLinks": [{"id": "c072a88c-f802-23f0-d868-ed25c40daa0e", "targetId": "0b5cacc9-bdee-749a-decd-ca3a3798de88", "type": "profile"}],
+            "rules": [
+              {
+                "name": "NCO",
+                "id": "336f88c6-2217-cb5d-dfb7-462c55af0861",
+                "description": "A Section containing a model with the NCO MAR may spend Command Points without being within the Command Distance of an Officer, however when doing this ANY Command Point Cost is DOUBLED.",
+                "hidden": false,
+                "page": 0
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Heat Gun",
+                "id": "210095a6-a6fe-0aea-f288-8c513652ea02",
+                "collective": false,
+                "hidden": false,
+                "page": 0,
+                "type": "upgrade",
+                "constraints": [
+                  {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+                  {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+                ],
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+                "infoLinks": [{"id": "7a3de93d-a551-663f-b281-2ce19f9ef4c0", "targetId": "357029ce-537f-7122-1ef7-d172acce21d0", "type": "profile"}]
+              }
+            ]
+          },
+          {
+            "name": "Mercantour Truck",
+            "id": "a552a4b1-dae3-3aaa-0c08-4df53722d71f",
+            "collective": false,
+            "hidden": false,
+            "page": 0,
+            "type": "upgrade",
+            "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+            "costs": [{"name": "pts", "typeId": "points", "value": 70}],
+            "infoLinks": [{"id": "71f95e1f-b1d1-4515-3f27-4dc954c3c300", "targetId": "ef22fc4a-59d1-340a-0af0-e86fde59e21b", "type": "profile"}]
+          },
+          {
+            "name": "Veronique Dubois",
+            "id": "1287706f-0130-f963-74d2-160dd5f8c9f2",
+            "collective": false,
+            "hidden": false,
+            "page": 0,
+            "type": "unit",
+            "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+            "costs": [{"name": "pts", "typeId": "points", "value": 60}],
+            "profiles": [
+              {
+                "name": "Veronique Dubois",
+                "id": "b63251d0-fc0d-0313-9579-26b8f9196dde",
+                "hidden": false,
+                "page": 0,
+                "typeId": "e768e3db-80af-3cea-995e-437c9f8e317b",
+                "characteristics": [
+                  {"name": "Type", "$text": "Infantry - Officer", "typeId": "31feeca1-3b0d-30fa-a65f-c8e60f6860fa"},
+                  {"name": "Mv", "$text": "6\"", "typeId": "2bac851c-6484-a3cb-e0c1-c19b2542fab6"},
+                  {"name": "IR", "$text": "4", "typeId": "3eb329ae-ccae-6674-af6b-d0a9316663c5"},
+                  {"name": "LP", "$text": "2", "typeId": "36a9abaa-8071-3b72-1a62-e7052c2f11bd"},
+                  {"name": "MAD", "$text": "2 RED", "typeId": "0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72"},
+                  {"name": "MARs", "$text": "Lucky(D3+1), Medic(4+)", "typeId": "a0693fde-b42f-0609-397b-074ee2ae9f9c"}
+                ]
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Experience Level",
+            "id": "a9c15e02-0242-b2b8-047f-5821da03605a",
+            "collective": false,
+            "hidden": false,
+            "constraints": [
+              {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+              {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+            ],
+            "selectionEntries": [
+              {
+                "name": "Veteran",
+                "id": "56bc2ff8-43bb-d2bb-b498-715f0fadb739",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [
+                  {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+                  {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+                ],
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}]
+              }
+            ]
+          },
+          {
+            "name": "Section Type",
+            "id": "fb8756d8-8102-0dbd-3e96-805ea29a5cc6",
+            "collective": false,
+            "hidden": false,
+            "constraints": [
+              {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+              {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+            ],
+            "selectionEntries": [
+              {
+                "name": "Combat",
+                "id": "61481d27-20a4-8420-0391-f836bf958029",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [
+                  {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+                  {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+                ],
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedProfiles": [
+      {
+        "name": ".44 Pistol",
+        "id": "0508542a-ab44-7771-e266-551f6677e0aa",
+        "hidden": false,
+        "typeId": "8789d001-6582-70fc-f96b-07ace9afe782",
+        "characteristics": [
+          {"name": "ER", "$text": "0-8\"", "typeId": "ba19b0b0-08c0-7343-876e-b48f7f92e0c6"},
+          {"name": "LR", "$text": "8-16\"", "typeId": "aecb3e00-ed71-cac7-04f4-73a0f8825554"},
+          {"name": "ER RAD", "$text": "3 BLACK", "typeId": "bd3cb9ee-6552-22a9-8903-6a1eed8895ac"},
+          {"name": "LR RAD", "$text": "2 BLACK", "typeId": "2b559c2a-3648-5fe4-f27b-93f86a98ce74"},
+          {"name": "ER IAD", "$text": "1 BLACK", "typeId": "3886c2a8-617a-7eb8-6317-9672c2afc09d"},
+          {"name": "LR IAD", "$text": "-", "typeId": "d9fa8499-5035-f1d8-1356-d263560c8a7c"},
+          {"name": "WARs", "$text": "CQB Weapon, Small Arm", "typeId": "237aa327-44c6-68b0-359b-bac0a6eb2673"}
+        ]
+      },
+      {
+        "name": "Aiguille Type 7 Rifle",
+        "id": "b5fcd797-bb35-898f-04e2-0409519cf6f8",
+        "hidden": false,
+        "page": 0,
+        "typeId": "8789d001-6582-70fc-f96b-07ace9afe782",
+        "characteristics": [
+          {"name": "ER", "$text": "1-16\"", "typeId": "ba19b0b0-08c0-7343-876e-b48f7f92e0c6"},
+          {"name": "LR", "$text": "17-32\"", "typeId": "aecb3e00-ed71-cac7-04f4-73a0f8825554"},
+          {"name": "ER RAD", "$text": "2 BLUE", "typeId": "bd3cb9ee-6552-22a9-8903-6a1eed8895ac"},
+          {"name": "LR RAD", "$text": "1 BLACK", "typeId": "2b559c2a-3648-5fe4-f27b-93f86a98ce74"},
+          {"name": "ER IAD", "$text": "1 BLACK", "typeId": "3886c2a8-617a-7eb8-6317-9672c2afc09d"},
+          {"name": "LR IAD", "$text": "-", "typeId": "d9fa8499-5035-f1d8-1356-d263560c8a7c"},
+          {"name": "WARs", "$text": "Small Arm", "typeId": "237aa327-44c6-68b0-359b-bac0a6eb2673"}
+        ]
+      },
+      {
+        "name": "Boiset Rifle Grenade",
+        "id": "abb829e8-fe73-5607-992d-0a9696275fc7",
+        "hidden": false,
+        "page": 0,
+        "typeId": "8789d001-6582-70fc-f96b-07ace9afe782",
+        "characteristics": [
+          {"name": "ER", "$text": "1-16\"", "typeId": "ba19b0b0-08c0-7343-876e-b48f7f92e0c6"},
+          {"name": "LR", "$text": "17-24\"", "typeId": "aecb3e00-ed71-cac7-04f4-73a0f8825554"},
+          {"name": "ER RAD", "$text": "2 BLUE", "typeId": "bd3cb9ee-6552-22a9-8903-6a1eed8895ac"},
+          {"name": "LR RAD", "$text": "3 RED", "typeId": "2b559c2a-3648-5fe4-f27b-93f86a98ce74"},
+          {"name": "ER IAD", "$text": "3 RED", "typeId": "3886c2a8-617a-7eb8-6317-9672c2afc09d"},
+          {"name": "LR IAD", "$text": "-", "typeId": "d9fa8499-5035-f1d8-1356-d263560c8a7c"},
+          {"name": "WARs", "$text": "Armor Piercing(1), Small Arm", "typeId": "237aa327-44c6-68b0-359b-bac0a6eb2673"}
+        ]
+      },
+      {
+        "name": "Chapuis HMG",
+        "id": "da398ebb-e8d6-5d59-53c8-36df12e7fd7a",
+        "hidden": false,
+        "page": 0,
+        "typeId": "8789d001-6582-70fc-f96b-07ace9afe782",
+        "characteristics": [
+          {"name": "ER", "$text": "1-24\"", "typeId": "ba19b0b0-08c0-7343-876e-b48f7f92e0c6"},
+          {"name": "LR", "$text": "25-40\"", "typeId": "aecb3e00-ed71-cac7-04f4-73a0f8825554"},
+          {"name": "ER RAD", "$text": "6 BLUE", "typeId": "bd3cb9ee-6552-22a9-8903-6a1eed8895ac"},
+          {"name": "LR RAD", "$text": "5 BLUE", "typeId": "2b559c2a-3648-5fe4-f27b-93f86a98ce74"},
+          {"name": "ER IAD", "$text": "4 BLUE", "typeId": "3886c2a8-617a-7eb8-6317-9672c2afc09d"},
+          {"name": "LR IAD", "$text": "4 BLACK", "typeId": "d9fa8499-5035-f1d8-1356-d263560c8a7c"},
+          {"name": "WARs", "$text": "Spray and Pray", "typeId": "237aa327-44c6-68b0-359b-bac0a6eb2673"}
+        ]
+      },
+      {
+        "name": "Fouilouse LMG",
+        "id": "c13dfed9-f255-b75a-7e65-549c8b25d1aa",
+        "hidden": false,
+        "page": 0,
+        "typeId": "8789d001-6582-70fc-f96b-07ace9afe782",
+        "characteristics": [
+          {"name": "ER", "$text": "1-16\"", "typeId": "ba19b0b0-08c0-7343-876e-b48f7f92e0c6"},
+          {"name": "LR", "$text": "17-24\"", "typeId": "aecb3e00-ed71-cac7-04f4-73a0f8825554"},
+          {"name": "ER RAD", "$text": "3 BLUE", "typeId": "bd3cb9ee-6552-22a9-8903-6a1eed8895ac"},
+          {"name": "LR RAD", "$text": "2 BLUE", "typeId": "2b559c2a-3648-5fe4-f27b-93f86a98ce74"},
+          {"name": "ER IAD", "$text": "1 BLUE", "typeId": "3886c2a8-617a-7eb8-6317-9672c2afc09d"},
+          {"name": "LR IAD", "$text": "-", "typeId": "d9fa8499-5035-f1d8-1356-d263560c8a7c"},
+          {"name": "WARs", "$text": "Small Arm", "typeId": "237aa327-44c6-68b0-359b-bac0a6eb2673"}
+        ]
+      },
+      {
+        "name": "Heat Gun",
+        "id": "357029ce-537f-7122-1ef7-d172acce21d0",
+        "hidden": false,
+        "page": 0,
+        "typeId": "8789d001-6582-70fc-f96b-07ace9afe782",
+        "characteristics": [
+          {"name": "ER", "$text": "0-8\"", "typeId": "ba19b0b0-08c0-7343-876e-b48f7f92e0c6"},
+          {"name": "LR", "$text": "9-16\"", "typeId": "aecb3e00-ed71-cac7-04f4-73a0f8825554"},
+          {"name": "ER RAD", "$text": "3 BLUE", "typeId": "bd3cb9ee-6552-22a9-8903-6a1eed8895ac"},
+          {"name": "LR RAD", "$text": "3 BLACK", "typeId": "2b559c2a-3648-5fe4-f27b-93f86a98ce74"},
+          {"name": "ER IAD", "$text": "3 RED", "typeId": "3886c2a8-617a-7eb8-6317-9672c2afc09d"},
+          {"name": "LR IAD", "$text": "2 RED", "typeId": "d9fa8499-5035-f1d8-1356-d263560c8a7c"},
+          {"name": "WARs", "$text": "Armor Piercing(1), Suppression", "typeId": "237aa327-44c6-68b0-359b-bac0a6eb2673"}
+        ]
+      },
+      {
+        "name": "Infantry Officer",
+        "id": "8da3a5e4-ae1f-be0b-50e9-90465e56b750",
+        "hidden": false,
+        "page": 0,
+        "typeId": "e768e3db-80af-3cea-995e-437c9f8e317b",
+        "characteristics": [
+          {"name": "Type", "$text": "Infantry - Officer", "typeId": "31feeca1-3b0d-30fa-a65f-c8e60f6860fa"},
+          {"name": "Mv", "$text": "7\"", "typeId": "2bac851c-6484-a3cb-e0c1-c19b2542fab6"},
+          {"name": "IR", "$text": "4", "typeId": "3eb329ae-ccae-6674-af6b-d0a9316663c5"},
+          {"name": "LP", "$text": "2", "typeId": "36a9abaa-8071-3b72-1a62-e7052c2f11bd"},
+          {"name": "MAD", "$text": "3 BLUE", "typeId": "0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72"},
+          {"name": "MARs", "$text": "-", "typeId": "a0693fde-b42f-0609-397b-074ee2ae9f9c"}
+        ]
+      },
+      {
+        "name": "Legionnaire",
+        "id": "0888d283-6f6a-8235-accd-efde211ac05b",
+        "hidden": false,
+        "page": 0,
+        "typeId": "e768e3db-80af-3cea-995e-437c9f8e317b",
+        "characteristics": [
+          {"name": "Type", "$text": "Infantry", "typeId": "31feeca1-3b0d-30fa-a65f-c8e60f6860fa"},
+          {"name": "Mv", "$text": "6\"", "typeId": "2bac851c-6484-a3cb-e0c1-c19b2542fab6"},
+          {"name": "IR", "$text": "3", "typeId": "3eb329ae-ccae-6674-af6b-d0a9316663c5"},
+          {"name": "LP", "$text": "1", "typeId": "36a9abaa-8071-3b72-1a62-e7052c2f11bd"},
+          {"name": "MAD", "$text": "2 BLACK", "typeId": "0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72"},
+          {"name": "MARs", "$text": "-", "typeId": "a0693fde-b42f-0609-397b-074ee2ae9f9c"}
+        ]
+      },
+      {
+        "name": "Legionnaire Gun Team",
+        "id": "947a1a0c-51d8-0746-83b6-01ddecb606ea",
+        "hidden": false,
+        "page": 0,
+        "typeId": "e768e3db-80af-3cea-995e-437c9f8e317b",
+        "characteristics": [
+          {"name": "Type", "$text": "Infantry", "typeId": "31feeca1-3b0d-30fa-a65f-c8e60f6860fa"},
+          {"name": "Mv", "$text": "6\"", "typeId": "2bac851c-6484-a3cb-e0c1-c19b2542fab6"},
+          {"name": "IR", "$text": "3", "typeId": "3eb329ae-ccae-6674-af6b-d0a9316663c5"},
+          {"name": "LP", "$text": "2", "typeId": "36a9abaa-8071-3b72-1a62-e7052c2f11bd"},
+          {"name": "MAD", "$text": "2 BLACK", "typeId": "0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72"},
+          {"name": "MARs", "$text": "Cumbersome, Move or Fire", "typeId": "a0693fde-b42f-0609-397b-074ee2ae9f9c"}
+        ]
+      },
+      {
+        "name": "Legionnaire Musician",
+        "id": "0246529b-9b5a-1dde-7365-68ca2e410df4",
+        "hidden": false,
+        "page": 0,
+        "typeId": "e768e3db-80af-3cea-995e-437c9f8e317b",
+        "characteristics": [
+          {"name": "Type", "$text": "Infantry", "typeId": "31feeca1-3b0d-30fa-a65f-c8e60f6860fa"},
+          {"name": "Mv", "$text": "6\"", "typeId": "2bac851c-6484-a3cb-e0c1-c19b2542fab6"},
+          {"name": "IR", "$text": "3", "typeId": "3eb329ae-ccae-6674-af6b-d0a9316663c5"},
+          {"name": "LP", "$text": "1", "typeId": "36a9abaa-8071-3b72-1a62-e7052c2f11bd"},
+          {"name": "MAD", "$text": "2 BLACK", "typeId": "0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72"},
+          {"name": "MARs", "$text": "Musician", "typeId": "a0693fde-b42f-0609-397b-074ee2ae9f9c"}
+        ]
+      },
+      {
+        "name": "Legionnaire Sergeant",
+        "id": "fee713d6-8e2d-a9f3-158f-2936957f6078",
+        "hidden": false,
+        "page": 0,
+        "typeId": "e768e3db-80af-3cea-995e-437c9f8e317b",
+        "characteristics": [
+          {"name": "Type", "$text": "Infantry", "typeId": "31feeca1-3b0d-30fa-a65f-c8e60f6860fa"},
+          {"name": "Mv", "$text": "6\"", "typeId": "2bac851c-6484-a3cb-e0c1-c19b2542fab6"},
+          {"name": "IR", "$text": "3", "typeId": "3eb329ae-ccae-6674-af6b-d0a9316663c5"},
+          {"name": "LP", "$text": "2", "typeId": "36a9abaa-8071-3b72-1a62-e7052c2f11bd"},
+          {"name": "MAD", "$text": "3 BLACK", "typeId": "0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72"},
+          {"name": "MARs", "$text": "NCO(1)", "typeId": "a0693fde-b42f-0609-397b-074ee2ae9f9c"}
+        ]
+      },
+      {
+        "name": "Legionnaire Staff Sergeant",
+        "id": "5009c956-51d4-80e9-c5db-e0e28e5a3f69",
+        "hidden": false,
+        "page": 0,
+        "typeId": "e768e3db-80af-3cea-995e-437c9f8e317b",
+        "characteristics": [
+          {"name": "Type", "$text": "Infantry", "typeId": "31feeca1-3b0d-30fa-a65f-c8e60f6860fa"},
+          {"name": "Mv", "$text": "6\"", "typeId": "2bac851c-6484-a3cb-e0c1-c19b2542fab6"},
+          {"name": "IR", "$text": "4", "typeId": "3eb329ae-ccae-6674-af6b-d0a9316663c5"},
+          {"name": "LP", "$text": "2", "typeId": "36a9abaa-8071-3b72-1a62-e7052c2f11bd"},
+          {"name": "MAD", "$text": "4 BLACK", "typeId": "0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72"},
+          {"name": "MARs", "$text": "NCO(2)", "typeId": "a0693fde-b42f-0609-397b-074ee2ae9f9c"}
+        ]
+      },
+      {
+        "name": "Marine",
+        "id": "175d1ad5-afc5-49af-4bea-e7e7114d467b",
+        "hidden": false,
+        "page": 0,
+        "typeId": "e768e3db-80af-3cea-995e-437c9f8e317b",
+        "characteristics": [
+          {"name": "Type", "$text": "Infantry", "typeId": "31feeca1-3b0d-30fa-a65f-c8e60f6860fa"},
+          {"name": "Mv", "$text": "6\"", "typeId": "2bac851c-6484-a3cb-e0c1-c19b2542fab6"},
+          {"name": "IR", "$text": "4", "typeId": "3eb329ae-ccae-6674-af6b-d0a9316663c5"},
+          {"name": "LP", "$text": "1", "typeId": "36a9abaa-8071-3b72-1a62-e7052c2f11bd"},
+          {"name": "MAD", "$text": "2 BLUE", "typeId": "0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72"},
+          {"name": "MARs", "$text": "Flashbangs, Tank Mines", "typeId": "a0693fde-b42f-0609-397b-074ee2ae9f9c"}
+        ]
+      },
+      {
+        "name": "Marine Sergeant",
+        "id": "0b5cacc9-bdee-749a-decd-ca3a3798de88",
+        "hidden": false,
+        "page": 0,
+        "typeId": "e768e3db-80af-3cea-995e-437c9f8e317b",
+        "characteristics": [
+          {"name": "Type", "$text": "Infantry", "typeId": "31feeca1-3b0d-30fa-a65f-c8e60f6860fa"},
+          {"name": "Mv", "$text": "6\"", "typeId": "2bac851c-6484-a3cb-e0c1-c19b2542fab6"},
+          {"name": "IR", "$text": "5", "typeId": "3eb329ae-ccae-6674-af6b-d0a9316663c5"},
+          {"name": "LP", "$text": "2", "typeId": "36a9abaa-8071-3b72-1a62-e7052c2f11bd"},
+          {"name": "MAD", "$text": "4 BLUE", "typeId": "0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72"},
+          {"name": "MARs", "$text": "NCO(2), Flashbangs, Tank Mines", "typeId": "a0693fde-b42f-0609-397b-074ee2ae9f9c"}
+        ]
+      },
+      {
+        "name": "Marine Specialist",
+        "id": "13cff825-7c65-2d5d-c564-bc63273c26d9",
+        "hidden": false,
+        "page": 0,
+        "typeId": "e768e3db-80af-3cea-995e-437c9f8e317b",
+        "characteristics": [
+          {"name": "Type", "$text": "Infantry", "typeId": "31feeca1-3b0d-30fa-a65f-c8e60f6860fa"},
+          {"name": "Mv", "$text": "6\"", "typeId": "2bac851c-6484-a3cb-e0c1-c19b2542fab6"},
+          {"name": "IR", "$text": "4", "typeId": "3eb329ae-ccae-6674-af6b-d0a9316663c5"},
+          {"name": "LP", "$text": "1", "typeId": "36a9abaa-8071-3b72-1a62-e7052c2f11bd"},
+          {"name": "MAD", "$text": "2 BLUE", "typeId": "0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72"},
+          {"name": "MARs", "$text": "Flashbangs, Tank Mines", "typeId": "a0693fde-b42f-0609-397b-074ee2ae9f9c"}
+        ]
+      },
+      {
+        "name": "Mercantour Truck",
+        "id": "ef22fc4a-59d1-340a-0af0-e86fde59e21b",
+        "hidden": false,
+        "page": 0,
+        "typeId": "8609946f-3efb-43c3-4d26-fd7298048fef",
+        "characteristics": [
+          {"name": "Type", "$text": "Regular Ironclad", "typeId": "24ec55bc-8096-3719-f055-359b4a8b6db8"},
+          {"name": "Mv", "$text": "8\"", "typeId": "efa50e5f-c48f-baba-babd-7641c78029fb"},
+          {"name": "Front", "$text": "5", "typeId": "89628dc0-ac75-72b8-44ad-0f7ae9c71956"},
+          {"name": "Sides", "$text": "4", "typeId": "8638bb7e-9bb1-70fb-2a8b-7349d7a8890a"},
+          {"name": "Rear", "$text": "4", "typeId": "ab1dcbec-f111-b0dc-2ec6-dc85cb4e9d5e"},
+          {"name": "HP", "$text": "3", "typeId": "8e70efa2-c560-c355-0ba4-8c7e03b6873c"},
+          {"name": "MARs", "$text": "Transport (11)", "typeId": "0760296f-f788-8de4-051f-e97fee43f772"}
+        ]
+      },
+      {
+        "name": "Roure SMG",
+        "id": "998fedef-0e97-073f-3257-b60a2ba52689",
+        "hidden": false,
+        "page": 0,
+        "typeId": "8789d001-6582-70fc-f96b-07ace9afe782",
+        "characteristics": [
+          {"name": "ER", "$text": "1-16\"", "typeId": "ba19b0b0-08c0-7343-876e-b48f7f92e0c6"},
+          {"name": "LR", "$text": "17-32\"", "typeId": "aecb3e00-ed71-cac7-04f4-73a0f8825554"},
+          {"name": "ER RAD", "$text": "2 BLUE", "typeId": "bd3cb9ee-6552-22a9-8903-6a1eed8895ac"},
+          {"name": "LR RAD", "$text": "1 BLACK", "typeId": "2b559c2a-3648-5fe4-f27b-93f86a98ce74"},
+          {"name": "ER IAD", "$text": "1 BLACK", "typeId": "3886c2a8-617a-7eb8-6317-9672c2afc09d"},
+          {"name": "LR IAD", "$text": "-", "typeId": "d9fa8499-5035-f1d8-1356-d263560c8a7c"},
+          {"name": "WARs", "$text": "Small Arm", "typeId": "237aa327-44c6-68b0-359b-bac0a6eb2673"}
+        ]
+      },
+      {
+        "name": "Type 4 Heat Ray",
+        "id": "b63ea0f0-b789-8e2e-05ed-3ffe67cfcc34",
+        "hidden": false,
+        "page": 0,
+        "typeId": "8789d001-6582-70fc-f96b-07ace9afe782",
+        "characteristics": [
+          {"name": "ER", "$text": "1-16\"", "typeId": "ba19b0b0-08c0-7343-876e-b48f7f92e0c6"},
+          {"name": "LR", "$text": "17-24\"", "typeId": "aecb3e00-ed71-cac7-04f4-73a0f8825554"},
+          {"name": "ER RAD", "$text": "3 BLUE", "typeId": "bd3cb9ee-6552-22a9-8903-6a1eed8895ac"},
+          {"name": "LR RAD", "$text": "3 BLACK", "typeId": "2b559c2a-3648-5fe4-f27b-93f86a98ce74"},
+          {"name": "ER IAD", "$text": "4 RED", "typeId": "3886c2a8-617a-7eb8-6317-9672c2afc09d"},
+          {"name": "LR IAD", "$text": "3 RED", "typeId": "d9fa8499-5035-f1d8-1356-d263560c8a7c"},
+          {"name": "WARs", "$text": "Armor Piercing(1), Suppression", "typeId": "237aa327-44c6-68b0-359b-bac0a6eb2673"}
+        ]
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Platoon Leader",
+        "id": "d73cefd7-682f-abf2-a2f7-4f2059e8d634",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 1},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 0}]
+      }
+    ]
+  }
+}

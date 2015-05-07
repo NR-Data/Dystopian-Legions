@@ -1,0 +1,244 @@
+{
+  "gameSystem": {
+    "name": "Dystopian Legions",
+    "id": "47423c1e-c024-1db7-9b5b-1ce40903e208",
+    "authorName": "gurofag",
+    "battleScribeVersion": 2.03,
+    "revision": 14,
+    "type": "gameSystem",
+    "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",
+    "categoryEntries": [
+      {"name": "Officers and Characters", "id": "0baa64cc-e868-23f3-9b04-d0542751e419"},
+      {"name": "Line Section", "id": "c3ad262a-edcb-13c7-0883-bbea6d8cd67e"},
+      {"name": "Elite Section", "id": "03401ec5-35d9-8c9b-039a-c47d317173fd"},
+      {"name": "Mercenaries", "id": "3937493e-fdae-1631-929a-b4326b83f01a"},
+      {"name": "Support Section", "id": "74a5e1f2-636a-5230-b965-dbb3b4efed2f"},
+      {"name": "Heavy Support Section", "id": "cdbe79c5-eff5-1446-7dab-048fcce4a65f"}
+    ],
+    "costTypes": [{"name": "pts", "id": "points"}],
+    "forceEntries": [
+      {
+        "name": "Main Forces",
+        "id": "e55aba8b-dc25-75a1-409e-22a3ae942d60",
+        "categoryLinks": [
+          {
+            "name": "Officers and Characters",
+            "id": "e55aba8b-dc25-75a1-409e-22a3ae942d60-0baa64cc-e868-23f3-9b04-d0542751e419",
+            "targetId": "0baa64cc-e868-23f3-9b04-d0542751e419",
+            "constraints": [
+              {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+              {"id": "maxSelections", "field": "selections", "includeChildForces": true, "scope": "parent", "type": "max", "value": 0}
+            ],
+            "modifiers": [
+              {
+                "field": "maxSelections",
+                "type": "increment",
+                "value": 1,
+                "repeats": [{"childId": "c3ad262a-edcb-13c7-0883-bbea6d8cd67e", "field": "selections", "repeats": 1, "scope": "force", "value": 1}]
+              },
+              {
+                "field": "minSelections",
+                "type": "increment",
+                "value": 1,
+                "conditions": [{"childId": "c3ad262a-edcb-13c7-0883-bbea6d8cd67e", "field": "selections", "scope": "parent", "type": "equalTo", "value": 1}]
+              }
+            ]
+          },
+          {
+            "name": "Line Section",
+            "id": "e55aba8b-dc25-75a1-409e-22a3ae942d60-c3ad262a-edcb-13c7-0883-bbea6d8cd67e",
+            "targetId": "c3ad262a-edcb-13c7-0883-bbea6d8cd67e",
+            "constraints": [
+              {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+              {"id": "maxSelections", "field": "selections", "includeChildForces": true, "scope": "parent", "type": "max", "value": 3}
+            ]
+          },
+          {
+            "name": "Elite Section",
+            "id": "e55aba8b-dc25-75a1-409e-22a3ae942d60-03401ec5-35d9-8c9b-039a-c47d317173fd",
+            "targetId": "03401ec5-35d9-8c9b-039a-c47d317173fd",
+            "constraints": [{"id": "maxSelections", "field": "selections", "includeChildForces": true, "scope": "parent", "type": "max", "value": 0}],
+            "modifiers": [
+              {
+                "field": "maxSelections",
+                "type": "increment",
+                "value": 1,
+                "repeats": [{"childId": "c3ad262a-edcb-13c7-0883-bbea6d8cd67e", "field": "selections", "repeats": 1, "scope": "force", "value": 1}]
+              },
+              {
+                "field": "maxSelections",
+                "type": "decrement",
+                "value": 1,
+                "repeats": [{"childId": "3937493e-fdae-1631-929a-b4326b83f01a", "field": "selections", "repeats": 1, "scope": "force", "value": 1}]
+              },
+              {
+                "field": "maxSelections",
+                "type": "decrement",
+                "value": 1,
+                "repeats": [{"childId": "cdbe79c5-eff5-1446-7dab-048fcce4a65f", "field": "selections", "repeats": 1, "scope": "force", "value": 1}]
+              },
+              {
+                "field": "maxSelections",
+                "type": "increment",
+                "value": 1,
+                "conditions": [{"childId": "c3ad262a-edcb-13c7-0883-bbea6d8cd67e", "field": "selections", "scope": "parent", "type": "equalTo", "value": 3}]
+              }
+            ]
+          },
+          {
+            "name": "Mercenaries",
+            "id": "e55aba8b-dc25-75a1-409e-22a3ae942d60-3937493e-fdae-1631-929a-b4326b83f01a",
+            "targetId": "3937493e-fdae-1631-929a-b4326b83f01a",
+            "constraints": [{"id": "maxSelections", "field": "selections", "includeChildForces": true, "scope": "parent", "type": "max", "value": 1}],
+            "modifiers": [
+              {
+                "field": "maxSelections",
+                "type": "increment",
+                "value": 1,
+                "conditions": [{"childId": "c3ad262a-edcb-13c7-0883-bbea6d8cd67e", "field": "selections", "scope": "parent", "type": "equalTo", "value": 3}]
+              }
+            ]
+          },
+          {
+            "name": "Support Section",
+            "id": "e55aba8b-dc25-75a1-409e-22a3ae942d60-74a5e1f2-636a-5230-b965-dbb3b4efed2f",
+            "targetId": "74a5e1f2-636a-5230-b965-dbb3b4efed2f",
+            "constraints": [{"id": "maxSelections", "field": "selections", "includeChildForces": true, "scope": "parent", "type": "max", "value": 0}],
+            "modifiers": [
+              {
+                "field": "maxSelections",
+                "type": "decrement",
+                "value": 2,
+                "repeats": [{"childId": "cdbe79c5-eff5-1446-7dab-048fcce4a65f", "field": "selections", "repeats": 1, "scope": "force", "value": 1}]
+              },
+              {
+                "field": "maxSelections",
+                "type": "increment",
+                "value": 1,
+                "conditions": [{"childId": "c3ad262a-edcb-13c7-0883-bbea6d8cd67e", "field": "selections", "scope": "parent", "type": "greaterThan", "value": 1}]
+              },
+              {
+                "field": "maxSelections",
+                "type": "increment",
+                "value": 1,
+                "repeats": [{"childId": "c3ad262a-edcb-13c7-0883-bbea6d8cd67e", "field": "selections", "repeats": 1, "scope": "force", "value": 1}]
+              }
+            ]
+          },
+          {
+            "name": "Heavy Support Section",
+            "id": "e55aba8b-dc25-75a1-409e-22a3ae942d60-cdbe79c5-eff5-1446-7dab-048fcce4a65f",
+            "targetId": "cdbe79c5-eff5-1446-7dab-048fcce4a65f",
+            "constraints": [{"id": "maxSelections", "field": "selections", "includeChildForces": true, "scope": "parent", "type": "max", "value": 1}],
+            "modifiers": [
+              {
+                "field": "maxSelections",
+                "type": "decrement",
+                "value": 1,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {"childId": "c3ad262a-edcb-13c7-0883-bbea6d8cd67e", "field": "selections", "scope": "parent", "type": "equalTo", "value": 2},
+                          {"childId": "74a5e1f2-636a-5230-b965-dbb3b4efed2f", "field": "selections", "scope": "parent", "type": "greaterThan", "value": 1}
+                        ]
+                      },
+                      {
+                        "type": "and",
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditionGroups": [
+                              {
+                                "type": "and",
+                                "conditions": [
+                                  {"childId": "03401ec5-35d9-8c9b-039a-c47d317173fd", "field": "selections", "scope": "parent", "type": "equalTo", "value": 3},
+                                  {"childId": "74a5e1f2-636a-5230-b965-dbb3b4efed2f", "field": "selections", "scope": "parent", "type": "greaterThan", "value": 1}
+                                ]
+                              },
+                              {
+                                "type": "and",
+                                "conditions": [
+                                  {"childId": "03401ec5-35d9-8c9b-039a-c47d317173fd", "field": "selections", "scope": "parent", "type": "lessThan", "value": 3},
+                                  {"childId": "74a5e1f2-636a-5230-b965-dbb3b4efed2f", "field": "selections", "scope": "parent", "type": "greaterThan", "value": 2}
+                                ]
+                              }
+                            ],
+                            "conditions": [{"childId": "03401ec5-35d9-8c9b-039a-c47d317173fd", "field": "selections", "scope": "parent", "type": "greaterThan", "value": 3}]
+                          }
+                        ],
+                        "conditions": [{"childId": "c3ad262a-edcb-13c7-0883-bbea6d8cd67e", "field": "selections", "scope": "parent", "type": "equalTo", "value": 3}]
+                      }
+                    ],
+                    "conditions": [{"childId": "c3ad262a-edcb-13c7-0883-bbea6d8cd67e", "field": "selections", "scope": "parent", "type": "equalTo", "value": 1}]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "profileTypes": [
+      {
+        "name": "Unit",
+        "id": "e768e3db-80af-3cea-995e-437c9f8e317b",
+        "characteristicTypes": [
+          {"name": "Type", "id": "31feeca1-3b0d-30fa-a65f-c8e60f6860fa"},
+          {"name": "Mv", "id": "2bac851c-6484-a3cb-e0c1-c19b2542fab6"},
+          {"name": "IR", "id": "3eb329ae-ccae-6674-af6b-d0a9316663c5"},
+          {"name": "LP", "id": "36a9abaa-8071-3b72-1a62-e7052c2f11bd"},
+          {"name": "MAD", "id": "0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72"},
+          {"name": "MARs", "id": "a0693fde-b42f-0609-397b-074ee2ae9f9c"}
+        ]
+      },
+      {
+        "name": "Ironclad",
+        "id": "8609946f-3efb-43c3-4d26-fd7298048fef",
+        "characteristicTypes": [
+          {"name": "Type", "id": "24ec55bc-8096-3719-f055-359b4a8b6db8"},
+          {"name": "Mv", "id": "efa50e5f-c48f-baba-babd-7641c78029fb"},
+          {"name": "Front", "id": "89628dc0-ac75-72b8-44ad-0f7ae9c71956"},
+          {"name": "Sides", "id": "8638bb7e-9bb1-70fb-2a8b-7349d7a8890a"},
+          {"name": "Rear", "id": "ab1dcbec-f111-b0dc-2ec6-dc85cb4e9d5e"},
+          {"name": "HP", "id": "8e70efa2-c560-c355-0ba4-8c7e03b6873c"},
+          {"name": "MARs", "id": "0760296f-f788-8de4-051f-e97fee43f772"}
+        ]
+      },
+      {
+        "name": "Weapon",
+        "id": "8789d001-6582-70fc-f96b-07ace9afe782",
+        "characteristicTypes": [
+          {"name": "ER", "id": "ba19b0b0-08c0-7343-876e-b48f7f92e0c6"},
+          {"name": "LR", "id": "aecb3e00-ed71-cac7-04f4-73a0f8825554"},
+          {"name": "ER RAD", "id": "bd3cb9ee-6552-22a9-8903-6a1eed8895ac"},
+          {"name": "LR RAD", "id": "2b559c2a-3648-5fe4-f27b-93f86a98ce74"},
+          {"name": "ER IAD", "id": "3886c2a8-617a-7eb8-6317-9672c2afc09d"},
+          {"name": "LR IAD", "id": "d9fa8499-5035-f1d8-1356-d263560c8a7c"},
+          {"name": "WARs", "id": "237aa327-44c6-68b0-359b-bac0a6eb2673"}
+        ]
+      },
+      {
+        "name": "Wargear",
+        "id": "36de56fd-beba-a7fb-0716-4336902cb3b4",
+        "characteristicTypes": [{"name": "Description", "id": "22ce6551-38e7-4e1c-04f5-3f863c83dc1d"}]
+      },
+      {
+        "name": "Ironclad Damage Tables",
+        "id": "f165a0b5-2234-38c4-ce2e-607c7f274599",
+        "characteristicTypes": [
+          {"name": 1, "id": "6143b088-e3c3-a14d-418c-b22532158eb1"},
+          {"name": 2, "id": "b179d45e-b8ce-a655-7c78-f7dd3c768dfb"},
+          {"name": 3, "id": "8fc5f6ad-5447-aa2d-8f88-e9f6c5153fce"},
+          {"name": 4, "id": "bcbd5562-c095-28bc-cfe3-e44da3b22f3c"},
+          {"name": 5, "id": "23d40e0d-b9dc-212a-eb34-87f99e76112b"},
+          {"name": 6, "id": "325ae4fb-10d3-0951-1ea9-23df7265a7f5"},
+          {"name": 7, "id": "33b33697-b212-bcbe-65a4-be2b1ac8010d"}
+        ]
+      }
+    ]
+  }
+}

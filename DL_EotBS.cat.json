@@ -1,0 +1,3077 @@
+{
+  "catalogue": {
+    "name": "Empire Of The Blazing Sun",
+    "id": "7b5995ac-d7c4-d0e9-3415-8fe6841095c9",
+    "authorContact": "todd.wittie@gmail.com",
+    "authorName": "Todd Wittie",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "47423c1e-c024-1db7-9b5b-1ce40903e208",
+    "gameSystemRevision": 2,
+    "revision": 14,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "selectionEntries": [
+      {
+        "name": "Alchemist Tonegawa & Takera Isamu",
+        "id": "e7c3bd88-c8e3-bf15-2163-62c2eda23f15",
+        "collective": false,
+        "hidden": false,
+        "page": 0,
+        "type": "unit",
+        "categoryLinks": [{"id": "e7c3bd88-c8e3-bf15-2163-62c2eda23f15-0baa64cc-e868-23f3-9b04-d0542751e419", "primary": true, "targetId": "0baa64cc-e868-23f3-9b04-d0542751e419"}],
+        "constraints": [{"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "type": "max", "value": 1}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+        "selectionEntries": [
+          {
+            "name": "Alchemist Tonegawa",
+            "id": "41313e95-9709-c708-c493-b7b61b8b41c8",
+            "collective": false,
+            "hidden": false,
+            "page": 0,
+            "type": "model",
+            "constraints": [
+              {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+              {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+            ],
+            "costs": [{"name": "pts", "typeId": "points", "value": 150}],
+            "profiles": [
+              {
+                "name": "Alchemist Tonegawa",
+                "id": "56ef314e-39d5-df38-0f52-624ceec6af73",
+                "hidden": false,
+                "page": 0,
+                "typeId": "e768e3db-80af-3cea-995e-437c9f8e317b",
+                "characteristics": [
+                  {"name": "Type", "$text": "Infantry", "typeId": "31feeca1-3b0d-30fa-a65f-c8e60f6860fa"},
+                  {"name": "Mv", "$text": "6\"", "typeId": "2bac851c-6484-a3cb-e0c1-c19b2542fab6"},
+                  {"name": "IR", "$text": "4", "typeId": "3eb329ae-ccae-6674-af6b-d0a9316663c5"},
+                  {"name": "LP", "$text": "2", "typeId": "36a9abaa-8071-3b72-1a62-e7052c2f11bd"},
+                  {"name": "MAD", "$text": "2 BLACK", "typeId": "0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72"},
+                  {"name": "MARs", "$text": "Unique", "typeId": "a0693fde-b42f-0609-397b-074ee2ae9f9c"}
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Weapons",
+                "id": "30d6e670-aa4e-77cf-b3eb-7a70efb0db88",
+                "collective": false,
+                "hidden": false,
+                "page": 0,
+                "type": "upgrade",
+                "constraints": [
+                  {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+                  {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+                ],
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+                "profiles": [
+                  {
+                    "name": "Tonegawa Launcher",
+                    "id": "bf795883-dd63-7577-4440-924e4cdd35f5",
+                    "hidden": false,
+                    "page": 0,
+                    "typeId": "8789d001-6582-70fc-f96b-07ace9afe782",
+                    "characteristics": [
+                      {"name": "ER", "$text": "1-16\"", "typeId": "ba19b0b0-08c0-7343-876e-b48f7f92e0c6"},
+                      {"name": "LR", "$text": "17-24\"", "typeId": "aecb3e00-ed71-cac7-04f4-73a0f8825554"},
+                      {"name": "ER RAD", "$text": "5 RED", "typeId": "bd3cb9ee-6552-22a9-8903-6a1eed8895ac"},
+                      {"name": "LR RAD", "$text": "5 RED", "typeId": "2b559c2a-3648-5fe4-f27b-93f86a98ce74"},
+                      {"name": "ER IAD", "$text": "2 BLUE", "typeId": "3886c2a8-617a-7eb8-6317-9672c2afc09d"},
+                      {"name": "LR IAD", "$text": "2 BLUE", "typeId": "d9fa8499-5035-f1d8-1356-d263560c8a7c"},
+                      {"name": "WARs", "$text": "Rapid Fire(2)", "typeId": "237aa327-44c6-68b0-359b-bac0a6eb2673"}
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Takera Isamu",
+            "id": "e93a6ea2-6eda-32db-ebc9-723dbf1b5215",
+            "collective": false,
+            "hidden": false,
+            "page": 0,
+            "type": "model",
+            "constraints": [
+              {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+              {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+            ],
+            "costs": [{"name": "pts", "typeId": "points", "value": 70}],
+            "entryLinks": [{"id": "bacb36ac-41a8-11b8-8ab2-6efbe781a757", "targetId": "24f86636-f7f6-ed32-392a-7b9a45441145", "type": "selectionEntry"}],
+            "profiles": [
+              {
+                "name": "Takera Isamu",
+                "id": "1698e737-dec3-0a20-5854-18bfc6a2da53",
+                "hidden": false,
+                "page": 0,
+                "typeId": "e768e3db-80af-3cea-995e-437c9f8e317b",
+                "characteristics": [
+                  {"name": "Type", "$text": "Infantry - Officer (Tier 2)", "typeId": "31feeca1-3b0d-30fa-a65f-c8e60f6860fa"},
+                  {"name": "Mv", "$text": "6\"", "typeId": "2bac851c-6484-a3cb-e0c1-c19b2542fab6"},
+                  {"name": "IR", "$text": "4", "typeId": "3eb329ae-ccae-6674-af6b-d0a9316663c5"},
+                  {"name": "LP", "$text": "2", "typeId": "36a9abaa-8071-3b72-1a62-e7052c2f11bd"},
+                  {"name": "MAD", "$text": "4 RED", "typeId": "0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72"},
+                  {"name": "MARs", "$text": "Combat Armor(1)", "typeId": "a0693fde-b42f-0609-397b-074ee2ae9f9c"}
+                ]
+              }
+            ],
+            "rules": [
+              {
+                "name": "Takera Isamu",
+                "id": "c745a769-3b97-e3f9-0cfc-6d9e7c51056a",
+                "description": "Command Points 3\nCommand Range 4\"\nExperience Level Regular",
+                "hidden": false,
+                "page": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ashigaru Section",
+        "id": "5e64c5a2-9da3-8146-9ae5-6df343b4cd91",
+        "collective": false,
+        "hidden": false,
+        "page": 0,
+        "type": "unit",
+        "categoryLinks": [{"id": "5e64c5a2-9da3-8146-9ae5-6df343b4cd91-c3ad262a-edcb-13c7-0883-bbea6d8cd67e", "primary": true, "targetId": "c3ad262a-edcb-13c7-0883-bbea6d8cd67e"}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+        "modifiers": [
+          {
+            "field": "points",
+            "type": "increment",
+            "value": 5,
+            "repeats": [
+              {
+                "childId": "644bd88a-2028-5ae6-b44b-e1bf403611ec",
+                "field": "selections",
+                "repeats": 1,
+                "scope": "5e64c5a2-9da3-8146-9ae5-6df343b4cd91",
+                "shared": true,
+                "value": 2
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Ashigaru",
+            "id": "997fbf56-59ab-fd54-40f5-81fa53c08691",
+            "collective": false,
+            "hidden": false,
+            "page": 0,
+            "type": "unit",
+            "constraints": [
+              {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 5},
+              {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 8}
+            ],
+            "costs": [{"name": "pts", "typeId": "points", "value": 20}],
+            "infoLinks": [{"id": "30034ec8-b720-9922-61a0-d5a35ee9b09a", "targetId": "30e0f1cc-eff8-85a9-c2ab-f597e9102d56", "type": "rule"}],
+            "modifiers": [
+              {
+                "field": "maxSelections",
+                "type": "decrement",
+                "value": 1,
+                "repeats": [
+                  {
+                    "childId": "dcc95035-0957-565c-ad3d-c05c97b02875",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "5e64c5a2-9da3-8146-9ae5-6df343b4cd91",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "minSelections",
+                "type": "decrement",
+                "value": 1,
+                "repeats": [
+                  {
+                    "childId": "dcc95035-0957-565c-ad3d-c05c97b02875",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "5e64c5a2-9da3-8146-9ae5-6df343b4cd91",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "minSelections",
+                "type": "decrement",
+                "value": 2,
+                "repeats": [
+                  {
+                    "childId": "644bd88a-2028-5ae6-b44b-e1bf403611ec",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "5e64c5a2-9da3-8146-9ae5-6df343b4cd91",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "maxSelections",
+                "type": "decrement",
+                "value": 2,
+                "repeats": [
+                  {
+                    "childId": "644bd88a-2028-5ae6-b44b-e1bf403611ec",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "5e64c5a2-9da3-8146-9ae5-6df343b4cd91",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "points",
+                "type": "increment",
+                "value": 10,
+                "conditions": [
+                  {
+                    "childId": "af01a43e-54e0-1063-3904-2105e6b3a6e4",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Ashigaru",
+                "id": "fa3bd437-d0d4-e2c7-4e70-103be7b9b393",
+                "hidden": false,
+                "page": 0,
+                "typeId": "e768e3db-80af-3cea-995e-437c9f8e317b",
+                "characteristics": [
+                  {"name": "Type", "$text": "Infantry", "typeId": "31feeca1-3b0d-30fa-a65f-c8e60f6860fa"},
+                  {"name": "Mv", "$text": "6\"", "typeId": "2bac851c-6484-a3cb-e0c1-c19b2542fab6"},
+                  {"name": "IR", "$text": "4", "typeId": "3eb329ae-ccae-6674-af6b-d0a9316663c5"},
+                  {"name": "LP", "$text": "1", "typeId": "36a9abaa-8071-3b72-1a62-e7052c2f11bd"},
+                  {"name": "MAD", "$text": "3 BLACK", "typeId": "0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72"},
+                  {"name": "MARs", "$text": "Gas Grenades", "typeId": "a0693fde-b42f-0609-397b-074ee2ae9f9c"}
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Shotgun",
+                "id": "a4f5c7bc-d6ff-8a91-2d00-55facfce6d82",
+                "collective": true,
+                "hidden": false,
+                "page": 0,
+                "type": "upgrade",
+                "constraints": [
+                  {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+                  {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+                ],
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+                "profiles": [
+                  {
+                    "name": "‘Dragon’s Breath’ Shotgun",
+                    "id": "72e4026c-54cc-d183-3b8b-e35b48077b44",
+                    "hidden": false,
+                    "page": 0,
+                    "typeId": "8789d001-6582-70fc-f96b-07ace9afe782",
+                    "characteristics": [
+                      {"name": "ER", "$text": "1-8\"", "typeId": "ba19b0b0-08c0-7343-876e-b48f7f92e0c6"},
+                      {"name": "LR", "$text": "9-16\"", "typeId": "aecb3e00-ed71-cac7-04f4-73a0f8825554"},
+                      {"name": "ER RAD", "$text": "2 RED", "typeId": "bd3cb9ee-6552-22a9-8903-6a1eed8895ac"},
+                      {"name": "LR RAD", "$text": "2 BLACK", "typeId": "2b559c2a-3648-5fe4-f27b-93f86a98ce74"},
+                      {"name": "ER IAD", "$text": "1 BLUE", "typeId": "3886c2a8-617a-7eb8-6317-9672c2afc09d"},
+                      {"name": "LR IAD", "$text": "-", "typeId": "d9fa8499-5035-f1d8-1356-d263560c8a7c"},
+                      {"name": "WARs", "$text": "-", "typeId": "237aa327-44c6-68b0-359b-bac0a6eb2673"}
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Army Medic",
+            "id": "59b23861-9f60-e9e6-43fa-eefb4679c492",
+            "collective": false,
+            "hidden": false,
+            "page": 0,
+            "type": "model",
+            "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+            "costs": [{"name": "pts", "typeId": "points", "value": 15}],
+            "profiles": [
+              {
+                "name": "Army Medic",
+                "id": "55dcb106-aad7-412a-b7f5-29752afe7c96",
+                "hidden": false,
+                "page": 0,
+                "typeId": "e768e3db-80af-3cea-995e-437c9f8e317b",
+                "characteristics": [
+                  {"name": "Type", "$text": "Infantry", "typeId": "31feeca1-3b0d-30fa-a65f-c8e60f6860fa"},
+                  {"name": "Mv", "$text": "6\"", "typeId": "2bac851c-6484-a3cb-e0c1-c19b2542fab6"},
+                  {"name": "IR", "$text": "3", "typeId": "3eb329ae-ccae-6674-af6b-d0a9316663c5"},
+                  {"name": "LP", "$text": "1", "typeId": "36a9abaa-8071-3b72-1a62-e7052c2f11bd"},
+                  {"name": "MAD", "$text": "1 BLACK", "typeId": "0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72"},
+                  {"name": "MARs", "$text": "Medic(6+)", "typeId": "a0693fde-b42f-0609-397b-074ee2ae9f9c"}
+                ]
+              }
+            ],
+            "rules": [{"name": "Medic", "id": "a4b849a2-a36b-2715-e92a-ad015bd76a00", "hidden": false, "page": 0}]
+          },
+          {
+            "name": "Ashigaru Specialist",
+            "id": "dcc95035-0957-565c-ad3d-c05c97b02875",
+            "collective": false,
+            "hidden": false,
+            "page": 0,
+            "type": "unit",
+            "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+            "costs": [{"name": "pts", "typeId": "points", "value": 30}],
+            "infoLinks": [{"id": "5f1ae50a-55b6-7c80-c6c5-82f1050bec44", "targetId": "30e0f1cc-eff8-85a9-c2ab-f597e9102d56", "type": "rule"}],
+            "modifiers": [
+              {
+                "field": "maxSelections",
+                "type": "increment",
+                "value": 1,
+                "repeats": [
+                  {
+                    "childId": "ed5b9381-21cf-9974-ff78-7afd9dcb1816",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "5e64c5a2-9da3-8146-9ae5-6df343b4cd91",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "points",
+                "type": "increment",
+                "value": 10,
+                "conditions": [
+                  {
+                    "childId": "af01a43e-54e0-1063-3904-2105e6b3a6e4",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "maxSelections",
+                "type": "decrement",
+                "value": 1,
+                "repeats": [
+                  {
+                    "childId": "03f557e1-fa2e-99e5-ed38-b70922cbf3ec",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "5e64c5a2-9da3-8146-9ae5-6df343b4cd91",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Ashigaru Specialist",
+                "id": "4e23bcf5-b23d-d7a3-4c87-a2dbfa5cdc68",
+                "hidden": false,
+                "page": 0,
+                "typeId": "e768e3db-80af-3cea-995e-437c9f8e317b",
+                "characteristics": [
+                  {"name": "Type", "$text": "Infantry", "typeId": "31feeca1-3b0d-30fa-a65f-c8e60f6860fa"},
+                  {"name": "Mv", "$text": "6\"", "typeId": "2bac851c-6484-a3cb-e0c1-c19b2542fab6"},
+                  {"name": "IR", "$text": "4", "typeId": "3eb329ae-ccae-6674-af6b-d0a9316663c5"},
+                  {"name": "LP", "$text": "1", "typeId": "36a9abaa-8071-3b72-1a62-e7052c2f11bd"},
+                  {"name": "MAD", "$text": "3 BLACK", "typeId": "0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72"},
+                  {"name": "MARs", "typeId": "a0693fde-b42f-0609-397b-074ee2ae9f9c"}
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Rocket Projector",
+                "id": "c053ec59-15f8-8dbf-0c09-6ca4a393d5cc",
+                "collective": true,
+                "hidden": false,
+                "page": 0,
+                "type": "upgrade",
+                "constraints": [
+                  {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+                  {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+                ],
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+                "profiles": [
+                  {
+                    "name": "Rocket Projector",
+                    "id": "6bcae9f3-990b-e705-d936-f436b53895e8",
+                    "hidden": false,
+                    "page": 0,
+                    "typeId": "8789d001-6582-70fc-f96b-07ace9afe782",
+                    "characteristics": [
+                      {"name": "ER", "$text": "1-16\"", "typeId": "ba19b0b0-08c0-7343-876e-b48f7f92e0c6"},
+                      {"name": "LR", "$text": "-", "typeId": "aecb3e00-ed71-cac7-04f4-73a0f8825554"},
+                      {"name": "ER RAD", "$text": "2 BLUE", "typeId": "bd3cb9ee-6552-22a9-8903-6a1eed8895ac"},
+                      {"name": "LR RAD", "$text": "-", "typeId": "2b559c2a-3648-5fe4-f27b-93f86a98ce74"},
+                      {"name": "ER IAD", "$text": "5 RED", "typeId": "3886c2a8-617a-7eb8-6317-9672c2afc09d"},
+                      {"name": "LR IAD", "$text": "-", "typeId": "d9fa8499-5035-f1d8-1356-d263560c8a7c"},
+                      {"name": "WARs", "$text": "Armor Piercing(1)", "typeId": "237aa327-44c6-68b0-359b-bac0a6eb2673"}
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Gun Team",
+            "id": "644bd88a-2028-5ae6-b44b-e1bf403611ec",
+            "collective": false,
+            "hidden": false,
+            "page": 0,
+            "type": "upgrade",
+            "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+            "costs": [{"name": "pts", "typeId": "points", "value": 50}],
+            "modifiers": [
+              {
+                "field": "maxSelections",
+                "type": "decrement",
+                "value": 1,
+                "repeats": [
+                  {
+                    "childId": "ed5b9381-21cf-9974-ff78-7afd9dcb1816",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "5e64c5a2-9da3-8146-9ae5-6df343b4cd91",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "maxSelections",
+                "type": "increment",
+                "value": 1,
+                "repeats": [
+                  {
+                    "childId": "03f557e1-fa2e-99e5-ed38-b70922cbf3ec",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "roster",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "points",
+                "type": "increment",
+                "value": 20,
+                "conditions": [
+                  {
+                    "childId": "af01a43e-54e0-1063-3904-2105e6b3a6e4",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Gun Team",
+                "id": "6d84536d-d99b-975d-1917-b62abb89ecf5",
+                "hidden": false,
+                "page": 0,
+                "typeId": "e768e3db-80af-3cea-995e-437c9f8e317b",
+                "characteristics": [
+                  {"name": "Type", "$text": "Infantry", "typeId": "31feeca1-3b0d-30fa-a65f-c8e60f6860fa"},
+                  {"name": "Mv", "$text": "5\"", "typeId": "2bac851c-6484-a3cb-e0c1-c19b2542fab6"},
+                  {"name": "IR", "$text": "4", "typeId": "3eb329ae-ccae-6674-af6b-d0a9316663c5"},
+                  {"name": "LP", "$text": "2", "typeId": "36a9abaa-8071-3b72-1a62-e7052c2f11bd"},
+                  {"name": "MAD", "$text": "3 BLACK", "typeId": "0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72"},
+                  {"name": "MARs", "$text": "Cumbersome, Move or Fire", "typeId": "a0693fde-b42f-0609-397b-074ee2ae9f9c"}
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Type 9 ‘Fireball’",
+                "id": "5aaeb8c5-ce3c-57ce-8081-6aaba789d3d9",
+                "collective": true,
+                "hidden": false,
+                "page": 0,
+                "type": "upgrade",
+                "constraints": [
+                  {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+                  {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+                ],
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+                "profiles": [
+                  {
+                    "name": "Type 9 ‘Fireball’",
+                    "id": "11ae7c5f-47af-ee30-f175-c93df5b7ee9b",
+                    "hidden": false,
+                    "page": 0,
+                    "typeId": "8789d001-6582-70fc-f96b-07ace9afe782",
+                    "characteristics": [
+                      {"name": "ER", "typeId": "ba19b0b0-08c0-7343-876e-b48f7f92e0c6"},
+                      {"name": "LR", "typeId": "aecb3e00-ed71-cac7-04f4-73a0f8825554"},
+                      {"name": "ER RAD", "typeId": "bd3cb9ee-6552-22a9-8903-6a1eed8895ac"},
+                      {"name": "LR RAD", "typeId": "2b559c2a-3648-5fe4-f27b-93f86a98ce74"},
+                      {"name": "ER IAD", "typeId": "3886c2a8-617a-7eb8-6317-9672c2afc09d"},
+                      {"name": "LR IAD", "typeId": "d9fa8499-5035-f1d8-1356-d263560c8a7c"},
+                      {"name": "WARs", "typeId": "237aa327-44c6-68b0-359b-bac0a6eb2673"}
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Kote Armoured Carrier",
+            "id": "aa50494f-3f57-f6a7-3661-e35ec61532a8",
+            "collective": false,
+            "hidden": false,
+            "page": 0,
+            "type": "upgrade",
+            "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 2}],
+            "costs": [{"name": "pts", "typeId": "points", "value": 40}],
+            "profiles": [
+              {
+                "name": "Kote Armoured Carrier",
+                "id": "3815c079-fba4-3c0e-baf1-ceb7d498da27",
+                "hidden": false,
+                "page": 0,
+                "typeId": "8609946f-3efb-43c3-4d26-fd7298048fef",
+                "characteristics": [
+                  {"name": "Type", "$text": "Ironclad", "typeId": "24ec55bc-8096-3719-f055-359b4a8b6db8"},
+                  {"name": "Mv", "$text": "8\"", "typeId": "efa50e5f-c48f-baba-babd-7641c78029fb"},
+                  {"name": "Front", "$text": "4", "typeId": "89628dc0-ac75-72b8-44ad-0f7ae9c71956"},
+                  {"name": "Sides", "$text": "4", "typeId": "8638bb7e-9bb1-70fb-2a8b-7349d7a8890a"},
+                  {"name": "Rear", "$text": "3", "typeId": "ab1dcbec-f111-b0dc-2ec6-dc85cb4e9d5e"},
+                  {"name": "HP", "$text": "4", "typeId": "8e70efa2-c560-c355-0ba4-8c7e03b6873c"},
+                  {"name": "MARs", "$text": "Open Topped, Transport(8)", "typeId": "0760296f-f788-8de4-051f-e97fee43f772"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Flag Signaller",
+            "id": "5c9eed92-89c7-ffcf-785c-d8db64e7ecec",
+            "collective": false,
+            "hidden": false,
+            "page": 0,
+            "type": "model",
+            "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+            "costs": [{"name": "pts", "typeId": "points", "value": 30}],
+            "profiles": [
+              {
+                "name": "Flag Signaller",
+                "id": "c495adb9-690e-da8b-c2a6-53cc37b64bb8",
+                "hidden": false,
+                "page": 0,
+                "typeId": "e768e3db-80af-3cea-995e-437c9f8e317b",
+                "characteristics": [
+                  {"name": "Type", "$text": "Infantry", "typeId": "31feeca1-3b0d-30fa-a65f-c8e60f6860fa"},
+                  {"name": "Mv", "$text": "6\"", "typeId": "2bac851c-6484-a3cb-e0c1-c19b2542fab6"},
+                  {"name": "IR", "$text": "4", "typeId": "3eb329ae-ccae-6674-af6b-d0a9316663c5"},
+                  {"name": "LP", "$text": "1", "typeId": "36a9abaa-8071-3b72-1a62-e7052c2f11bd"},
+                  {"name": "MAD", "$text": "1 BLACK", "typeId": "0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72"},
+                  {"name": "MARs", "$text": "Medic(6+)", "typeId": "a0693fde-b42f-0609-397b-074ee2ae9f9c"}
+                ]
+              }
+            ],
+            "rules": [{"name": "Flag Signaller", "id": "a6c2d342-1cc5-57b8-fb45-6863484d644c", "hidden": false, "page": 0}]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Section Type",
+            "id": "b46f37a9-6172-419b-3729-bc8bb859eecf",
+            "collective": false,
+            "hidden": false,
+            "constraints": [
+              {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+              {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+            ],
+            "selectionEntries": [
+              {
+                "name": "Combat",
+                "id": "dc9e6114-cd2e-aa6b-f2b2-466a7a092102",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}]
+              },
+              {
+                "name": "Assault",
+                "id": "ed5b9381-21cf-9974-ff78-7afd9dcb1816",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}]
+              },
+              {
+                "name": "MMG",
+                "id": "03f557e1-fa2e-99e5-ed38-b70922cbf3ec",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}]
+              }
+            ]
+          },
+          {
+            "name": "Experience Level",
+            "id": "9c66ac1a-1846-8981-c070-afd0716c1ceb",
+            "collective": false,
+            "hidden": false,
+            "constraints": [
+              {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+              {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+            ],
+            "selectionEntries": [
+              {
+                "name": "Militia",
+                "id": "c13a6886-606b-62d7-5cbe-e06265b11c93",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}]
+              },
+              {
+                "name": "Regular",
+                "id": "af01a43e-54e0-1063-3904-2105e6b3a6e4",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Imperial Rifle Section",
+        "id": "0bacc01b-8d03-e61e-8a52-792c7e67a70c",
+        "collective": false,
+        "hidden": false,
+        "page": 0,
+        "type": "unit",
+        "categoryLinks": [{"id": "0bacc01b-8d03-e61e-8a52-792c7e67a70c-c3ad262a-edcb-13c7-0883-bbea6d8cd67e", "primary": true, "targetId": "c3ad262a-edcb-13c7-0883-bbea6d8cd67e"}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+        "selectionEntries": [
+          {
+            "name": "Imperial Rifleman",
+            "id": "d9f79571-a104-c105-996c-5adad26391ee",
+            "collective": false,
+            "hidden": false,
+            "page": 0,
+            "type": "unit",
+            "constraints": [
+              {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 5},
+              {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 9}
+            ],
+            "costs": [{"name": "pts", "typeId": "points", "value": 15}],
+            "modifiers": [
+              {
+                "field": "maxSelections",
+                "type": "decrement",
+                "value": 1,
+                "repeats": [
+                  {
+                    "childId": "89b52508-5d41-8f8b-60e2-e055195b0a3c",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "0bacc01b-8d03-e61e-8a52-792c7e67a70c",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "minSelections",
+                "type": "decrement",
+                "value": 1,
+                "repeats": [
+                  {
+                    "childId": "89b52508-5d41-8f8b-60e2-e055195b0a3c",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "0bacc01b-8d03-e61e-8a52-792c7e67a70c",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "maxSelections",
+                "type": "decrement",
+                "value": 1,
+                "repeats": [
+                  {
+                    "childId": "7d592fcc-8139-c5ae-5709-3c275f13d796",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "0bacc01b-8d03-e61e-8a52-792c7e67a70c",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "minSelections",
+                "type": "decrement",
+                "value": 1,
+                "repeats": [
+                  {
+                    "childId": "7d592fcc-8139-c5ae-5709-3c275f13d796",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "0bacc01b-8d03-e61e-8a52-792c7e67a70c",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "points",
+                "type": "increment",
+                "value": 10,
+                "repeats": [
+                  {
+                    "childId": "4ca6b1fa-10f8-ce70-cdab-6322b2197052",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "0bacc01b-8d03-e61e-8a52-792c7e67a70c",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "points",
+                "type": "increment",
+                "value": 15,
+                "repeats": [
+                  {
+                    "childId": "4baa055e-6813-5822-1b25-72a0b0c54177",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "0bacc01b-8d03-e61e-8a52-792c7e67a70c",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Imperial Rifleman",
+                "id": "f0806140-b551-8454-b192-266223f0aa9d",
+                "hidden": false,
+                "page": 0,
+                "typeId": "e768e3db-80af-3cea-995e-437c9f8e317b",
+                "characteristics": [
+                  {"name": "Type", "$text": "Infantry", "typeId": "31feeca1-3b0d-30fa-a65f-c8e60f6860fa"},
+                  {"name": "Mv", "$text": "6\"", "typeId": "2bac851c-6484-a3cb-e0c1-c19b2542fab6"},
+                  {"name": "IR", "$text": "3", "typeId": "3eb329ae-ccae-6674-af6b-d0a9316663c5"},
+                  {"name": "LP", "$text": "1", "typeId": "36a9abaa-8071-3b72-1a62-e7052c2f11bd"},
+                  {"name": "MAD", "$text": "1 BLACK", "typeId": "0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72"},
+                  {"name": "MARs", "$text": "-", "typeId": "a0693fde-b42f-0609-397b-074ee2ae9f9c"}
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Teppo",
+                "id": "8a020845-6beb-7cd9-840d-94b67fa5af82",
+                "collective": true,
+                "hidden": false,
+                "page": 0,
+                "type": "upgrade",
+                "constraints": [
+                  {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+                  {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+                ],
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+                "profiles": [
+                  {
+                    "name": "Teppo",
+                    "id": "c3c3a013-3bb3-fffe-74d2-c85055f6be7c",
+                    "hidden": false,
+                    "page": 0,
+                    "typeId": "8789d001-6582-70fc-f96b-07ace9afe782",
+                    "characteristics": [
+                      {"name": "ER", "typeId": "ba19b0b0-08c0-7343-876e-b48f7f92e0c6"},
+                      {"name": "LR", "typeId": "aecb3e00-ed71-cac7-04f4-73a0f8825554"},
+                      {"name": "ER RAD", "typeId": "bd3cb9ee-6552-22a9-8903-6a1eed8895ac"},
+                      {"name": "LR RAD", "typeId": "2b559c2a-3648-5fe4-f27b-93f86a98ce74"},
+                      {"name": "ER IAD", "typeId": "3886c2a8-617a-7eb8-6317-9672c2afc09d"},
+                      {"name": "LR IAD", "typeId": "d9fa8499-5035-f1d8-1356-d263560c8a7c"},
+                      {"name": "WARs", "typeId": "237aa327-44c6-68b0-359b-bac0a6eb2673"}
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Army Medic",
+            "id": "147f6839-4608-c0a4-41c4-135404d71516",
+            "collective": false,
+            "hidden": false,
+            "page": 0,
+            "type": "model",
+            "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+            "costs": [{"name": "pts", "typeId": "points", "value": 15}],
+            "profiles": [
+              {
+                "name": "Army Medic",
+                "id": "43d3de63-231f-9fc4-3a5c-6028d589e90b",
+                "hidden": false,
+                "page": 0,
+                "typeId": "e768e3db-80af-3cea-995e-437c9f8e317b",
+                "characteristics": [
+                  {"name": "Type", "$text": "Infantry", "typeId": "31feeca1-3b0d-30fa-a65f-c8e60f6860fa"},
+                  {"name": "Mv", "$text": "6\"", "typeId": "2bac851c-6484-a3cb-e0c1-c19b2542fab6"},
+                  {"name": "IR", "$text": "3", "typeId": "3eb329ae-ccae-6674-af6b-d0a9316663c5"},
+                  {"name": "LP", "$text": "1", "typeId": "36a9abaa-8071-3b72-1a62-e7052c2f11bd"},
+                  {"name": "MAD", "$text": "1 BLACK", "typeId": "0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72"},
+                  {"name": "MARs", "$text": "Medic", "typeId": "a0693fde-b42f-0609-397b-074ee2ae9f9c"}
+                ]
+              }
+            ],
+            "rules": [
+              {
+                "name": "Medic",
+                "id": "9f1299f5-623e-c6c7-d0c2-35aee297549d",
+                "description": "A Section containing a model with the Medic MAR can ignore the first success rolled against it from each Ranged or Melee Attack.",
+                "hidden": false,
+                "page": 0
+              }
+            ]
+          },
+          {
+            "name": "Imperial Sergeant",
+            "id": "7d592fcc-8139-c5ae-5709-3c275f13d796",
+            "collective": false,
+            "hidden": false,
+            "page": 0,
+            "type": "unit",
+            "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+            "costs": [{"name": "pts", "typeId": "points", "value": 20}],
+            "modifiers": [
+              {
+                "field": "points",
+                "type": "increment",
+                "value": 10,
+                "repeats": [
+                  {
+                    "childId": "4ca6b1fa-10f8-ce70-cdab-6322b2197052",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "0bacc01b-8d03-e61e-8a52-792c7e67a70c",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "points",
+                "type": "increment",
+                "value": 15,
+                "repeats": [
+                  {
+                    "childId": "4baa055e-6813-5822-1b25-72a0b0c54177",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "0bacc01b-8d03-e61e-8a52-792c7e67a70c",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Imperial Sergeant",
+                "id": "a4367fa7-6168-9ab6-f54b-2a2517aae25f",
+                "hidden": false,
+                "page": 0,
+                "typeId": "e768e3db-80af-3cea-995e-437c9f8e317b",
+                "characteristics": [
+                  {"name": "Type", "$text": "Infantry", "typeId": "31feeca1-3b0d-30fa-a65f-c8e60f6860fa"},
+                  {"name": "Mv", "$text": "6\"", "typeId": "2bac851c-6484-a3cb-e0c1-c19b2542fab6"},
+                  {"name": "IR", "$text": "3", "typeId": "3eb329ae-ccae-6674-af6b-d0a9316663c5"},
+                  {"name": "LP", "$text": "1", "typeId": "36a9abaa-8071-3b72-1a62-e7052c2f11bd"},
+                  {"name": "MAD", "$text": "1 BLACK", "typeId": "0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72"},
+                  {"name": "MARs", "$text": "NCO", "typeId": "a0693fde-b42f-0609-397b-074ee2ae9f9c"}
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Dragon's Breath Shotgun",
+                "id": "95b0b197-1823-478d-1329-535688557d72",
+                "collective": true,
+                "hidden": false,
+                "page": 0,
+                "type": "upgrade",
+                "constraints": [
+                  {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+                  {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+                ],
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+                "profiles": [
+                  {
+                    "name": "Dragon's Breath Shotgun",
+                    "id": "ac97919c-d16a-ed3a-2ed9-e80c1cc4579d",
+                    "hidden": false,
+                    "page": 0,
+                    "typeId": "8789d001-6582-70fc-f96b-07ace9afe782",
+                    "characteristics": [
+                      {"name": "ER", "typeId": "ba19b0b0-08c0-7343-876e-b48f7f92e0c6"},
+                      {"name": "LR", "typeId": "aecb3e00-ed71-cac7-04f4-73a0f8825554"},
+                      {"name": "ER RAD", "typeId": "bd3cb9ee-6552-22a9-8903-6a1eed8895ac"},
+                      {"name": "LR RAD", "typeId": "2b559c2a-3648-5fe4-f27b-93f86a98ce74"},
+                      {"name": "ER IAD", "typeId": "3886c2a8-617a-7eb8-6317-9672c2afc09d"},
+                      {"name": "LR IAD", "typeId": "d9fa8499-5035-f1d8-1356-d263560c8a7c"},
+                      {"name": "WARs", "typeId": "237aa327-44c6-68b0-359b-bac0a6eb2673"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Master Sergeant",
+                "id": "138dc35c-86ff-46e3-968a-cd94892f8a37",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+                "costs": [{"name": "pts", "typeId": "points", "value": 15}],
+                "profiles": [
+                  {
+                    "name": "Imperial Master Sergeant",
+                    "id": "8ee5d73c-3f17-6bf2-81bf-4b4e9e22f0b7",
+                    "hidden": false,
+                    "page": 0,
+                    "typeId": "e768e3db-80af-3cea-995e-437c9f8e317b",
+                    "characteristics": [
+                      {"name": "Type", "$text": "Infantry", "typeId": "31feeca1-3b0d-30fa-a65f-c8e60f6860fa"},
+                      {"name": "Mv", "$text": "6\"", "typeId": "2bac851c-6484-a3cb-e0c1-c19b2542fab6"},
+                      {"name": "IR", "$text": "4", "typeId": "3eb329ae-ccae-6674-af6b-d0a9316663c5"},
+                      {"name": "LP", "$text": "2", "typeId": "36a9abaa-8071-3b72-1a62-e7052c2f11bd"},
+                      {"name": "MAD", "$text": "2 BLACK", "typeId": "0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72"},
+                      {"name": "MARs", "$text": "NCO(2)", "typeId": "a0693fde-b42f-0609-397b-074ee2ae9f9c"}
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Imperial Marksman",
+            "id": "89b52508-5d41-8f8b-60e2-e055195b0a3c",
+            "collective": false,
+            "hidden": false,
+            "page": 0,
+            "type": "unit",
+            "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 2}],
+            "costs": [{"name": "pts", "typeId": "points", "value": 20}],
+            "modifiers": [
+              {
+                "field": "points",
+                "type": "increment",
+                "value": 15,
+                "repeats": [
+                  {
+                    "childId": "4baa055e-6813-5822-1b25-72a0b0c54177",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "0bacc01b-8d03-e61e-8a52-792c7e67a70c",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "points",
+                "type": "increment",
+                "value": 10,
+                "repeats": [
+                  {
+                    "childId": "4ca6b1fa-10f8-ce70-cdab-6322b2197052",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "0bacc01b-8d03-e61e-8a52-792c7e67a70c",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Imperial Marksman",
+                "id": "88a4ef86-e7b9-590c-8ef7-8b18a0276da2",
+                "hidden": false,
+                "page": 0,
+                "typeId": "e768e3db-80af-3cea-995e-437c9f8e317b",
+                "characteristics": [
+                  {"name": "Type", "$text": "Infantry", "typeId": "31feeca1-3b0d-30fa-a65f-c8e60f6860fa"},
+                  {"name": "Mv", "$text": "6\"", "typeId": "2bac851c-6484-a3cb-e0c1-c19b2542fab6"},
+                  {"name": "IR", "$text": "3", "typeId": "3eb329ae-ccae-6674-af6b-d0a9316663c5"},
+                  {"name": "LP", "$text": "1", "typeId": "36a9abaa-8071-3b72-1a62-e7052c2f11bd"},
+                  {"name": "MAD", "$text": "1 BLACK", "typeId": "0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72"},
+                  {"name": "MARs", "$text": "Sniper", "typeId": "a0693fde-b42f-0609-397b-074ee2ae9f9c"}
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Marksman's Teppo",
+                "id": "f0cf7603-c7d4-c358-8916-5f1dcc622a97",
+                "collective": true,
+                "hidden": false,
+                "page": 0,
+                "type": "upgrade",
+                "constraints": [
+                  {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+                  {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+                ],
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+                "profiles": [
+                  {
+                    "name": "Marksman's Teppo",
+                    "id": "5e4a56db-1905-27cd-5eca-02adbca3cef1",
+                    "hidden": false,
+                    "page": 0,
+                    "typeId": "8789d001-6582-70fc-f96b-07ace9afe782",
+                    "characteristics": [
+                      {"name": "ER", "typeId": "ba19b0b0-08c0-7343-876e-b48f7f92e0c6"},
+                      {"name": "LR", "typeId": "aecb3e00-ed71-cac7-04f4-73a0f8825554"},
+                      {"name": "ER RAD", "typeId": "bd3cb9ee-6552-22a9-8903-6a1eed8895ac"},
+                      {"name": "LR RAD", "typeId": "2b559c2a-3648-5fe4-f27b-93f86a98ce74"},
+                      {"name": "ER IAD", "typeId": "3886c2a8-617a-7eb8-6317-9672c2afc09d"},
+                      {"name": "LR IAD", "typeId": "d9fa8499-5035-f1d8-1356-d263560c8a7c"},
+                      {"name": "WARs", "typeId": "237aa327-44c6-68b0-359b-bac0a6eb2673"}
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Kote Armoured Carrier",
+            "id": "4e399e76-7729-8db6-ccb3-5f6e770cc749",
+            "collective": false,
+            "hidden": false,
+            "page": 0,
+            "type": "upgrade",
+            "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 2}],
+            "costs": [{"name": "pts", "typeId": "points", "value": 40}],
+            "profiles": [
+              {
+                "name": "Kote Armoured Carrier",
+                "id": "180242e4-7287-97b8-c2bc-6793f7b70be5",
+                "hidden": false,
+                "page": 0,
+                "typeId": "8609946f-3efb-43c3-4d26-fd7298048fef",
+                "characteristics": [
+                  {"name": "Type", "$text": "Ironclad", "typeId": "24ec55bc-8096-3719-f055-359b4a8b6db8"},
+                  {"name": "Mv", "$text": "8\"", "typeId": "efa50e5f-c48f-baba-babd-7641c78029fb"},
+                  {"name": "Front", "$text": "4", "typeId": "89628dc0-ac75-72b8-44ad-0f7ae9c71956"},
+                  {"name": "Sides", "$text": "4", "typeId": "8638bb7e-9bb1-70fb-2a8b-7349d7a8890a"},
+                  {"name": "Rear", "$text": "3", "typeId": "ab1dcbec-f111-b0dc-2ec6-dc85cb4e9d5e"},
+                  {"name": "HP", "$text": "4", "typeId": "8e70efa2-c560-c355-0ba4-8c7e03b6873c"},
+                  {"name": "MARs", "$text": "Open Topped, Transport(8)", "typeId": "0760296f-f788-8de4-051f-e97fee43f772"}
+                ]
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Experience Level",
+            "id": "6fa11f0a-ded6-19ba-3460-657cf80ed6e2",
+            "collective": false,
+            "hidden": false,
+            "constraints": [
+              {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+              {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+            ],
+            "selectionEntries": [
+              {
+                "name": "Militia",
+                "id": "7b4b2d78-bbf7-9e71-9a99-21d2a35c7663",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}]
+              },
+              {
+                "name": "Regular",
+                "id": "4ca6b1fa-10f8-ce70-cdab-6322b2197052",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}]
+              },
+              {
+                "name": "Veteran",
+                "id": "4baa055e-6813-5822-1b25-72a0b0c54177",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Infantry Officer",
+        "id": "f49b3125-56f4-ba41-fe5f-a8e27c3f2f42",
+        "collective": false,
+        "hidden": false,
+        "page": 0,
+        "type": "unit",
+        "categoryLinks": [{"id": "f49b3125-56f4-ba41-fe5f-a8e27c3f2f42-0baa64cc-e868-23f3-9b04-d0542751e419", "primary": true, "targetId": "0baa64cc-e868-23f3-9b04-d0542751e419"}],
+        "constraints": [{"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "type": "max", "value": 1}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+        "entryLinks": [{"id": "4e96142d-de6d-4d03-b3e4-08c1be43644a", "targetId": "24f86636-f7f6-ed32-392a-7b9a45441145", "type": "selectionEntry"}],
+        "profiles": [
+          {
+            "name": "Infantry Officer",
+            "id": "2bd3f049-dae0-0231-7b82-2f24e06b7f66",
+            "hidden": false,
+            "page": 0,
+            "typeId": "e768e3db-80af-3cea-995e-437c9f8e317b",
+            "characteristics": [
+              {"name": "Type", "$text": "Infantry - Officer", "typeId": "31feeca1-3b0d-30fa-a65f-c8e60f6860fa"},
+              {"name": "Mv", "$text": "6\"", "typeId": "2bac851c-6484-a3cb-e0c1-c19b2542fab6"},
+              {"name": "IR", "$text": "4", "typeId": "3eb329ae-ccae-6674-af6b-d0a9316663c5"},
+              {"name": "LP", "$text": "3", "typeId": "36a9abaa-8071-3b72-1a62-e7052c2f11bd"},
+              {"name": "MAD", "$text": "3 BLUE", "typeId": "0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72"},
+              {"name": "MARs", "$text": "-", "typeId": "a0693fde-b42f-0609-397b-074ee2ae9f9c"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Order: Banzai! Banzai! Banzai!",
+            "id": "06fdef4f-358f-22df-f86d-113ef78f4c0a",
+            "description": "CP = 1\nPasses = 2\nIssued in - Section's Command Segment\nIf the order is passed, the Section gains the Daunting MAR for the Activation",
+            "hidden": false
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Kote APC",
+            "id": "73bf29a5-84ea-e1b9-b6de-c0a406e4e5f1",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+            "costs": [{"name": "pts", "typeId": "points", "value": 40}],
+            "profiles": [
+              {
+                "name": "Kote Armoured Carrier",
+                "id": "005a4294-7d7d-07a2-4e32-b7b99abdcc1a",
+                "hidden": false,
+                "page": 0,
+                "typeId": "8609946f-3efb-43c3-4d26-fd7298048fef",
+                "characteristics": [
+                  {"name": "Type", "$text": "Ironclad", "typeId": "24ec55bc-8096-3719-f055-359b4a8b6db8"},
+                  {"name": "Mv", "$text": "8\"", "typeId": "efa50e5f-c48f-baba-babd-7641c78029fb"},
+                  {"name": "Front", "$text": "4", "typeId": "89628dc0-ac75-72b8-44ad-0f7ae9c71956"},
+                  {"name": "Sides", "$text": "4", "typeId": "8638bb7e-9bb1-70fb-2a8b-7349d7a8890a"},
+                  {"name": "Rear", "$text": "3", "typeId": "ab1dcbec-f111-b0dc-2ec6-dc85cb4e9d5e"},
+                  {"name": "HP", "$text": "4", "typeId": "8e70efa2-c560-c355-0ba4-8c7e03b6873c"},
+                  {"name": "MARs", "$text": "Open Topped, Transport(8)", "typeId": "0760296f-f788-8de4-051f-e97fee43f772"}
+                ]
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Weapons",
+            "id": "dcf45609-d802-529c-841a-b9c0faf70fc2",
+            "collective": false,
+            "hidden": false,
+            "constraints": [
+              {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+              {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+            ],
+            "selectionEntries": [
+              {
+                "name": "Kappon Pistol",
+                "id": "15ee7330-6f1a-5ccd-6fe8-8beb4c9c00f8",
+                "collective": false,
+                "hidden": false,
+                "page": 0,
+                "type": "upgrade",
+                "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+                "profiles": [
+                  {
+                    "name": "Kappon Pistol",
+                    "id": "d2f40ef3-024e-2ba7-146b-e7500bc13e98",
+                    "hidden": false,
+                    "page": 0,
+                    "typeId": "8789d001-6582-70fc-f96b-07ace9afe782",
+                    "characteristics": [
+                      {"name": "ER", "$text": "0-8\"", "typeId": "ba19b0b0-08c0-7343-876e-b48f7f92e0c6"},
+                      {"name": "LR", "$text": "-", "typeId": "aecb3e00-ed71-cac7-04f4-73a0f8825554"},
+                      {"name": "ER RAD", "$text": "2 BLUE", "typeId": "bd3cb9ee-6552-22a9-8903-6a1eed8895ac"},
+                      {"name": "LR RAD", "$text": "-", "typeId": "2b559c2a-3648-5fe4-f27b-93f86a98ce74"},
+                      {"name": "ER IAD", "$text": "2 BLUE", "typeId": "3886c2a8-617a-7eb8-6317-9672c2afc09d"},
+                      {"name": "LR IAD", "$text": "-", "typeId": "d9fa8499-5035-f1d8-1356-d263560c8a7c"},
+                      {"name": "WARs", "$text": "CQB Weapon, Small Arm", "typeId": "237aa327-44c6-68b0-359b-bac0a6eb2673"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "'Tiger's Claw' Shotgun",
+                "id": "f64ac02e-0181-bc22-3795-74f0e46f5094",
+                "collective": false,
+                "hidden": false,
+                "page": 0,
+                "type": "upgrade",
+                "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+                "costs": [{"name": "pts", "typeId": "points", "value": 10}],
+                "profiles": [
+                  {
+                    "name": "'Tiger's Claw' Shotgun",
+                    "id": "8c11993f-dada-3877-6d6a-906f2189e15f",
+                    "hidden": false,
+                    "page": 0,
+                    "typeId": "8789d001-6582-70fc-f96b-07ace9afe782",
+                    "characteristics": [
+                      {"name": "ER", "$text": "1-8\"", "typeId": "ba19b0b0-08c0-7343-876e-b48f7f92e0c6"},
+                      {"name": "LR", "$text": "-", "typeId": "aecb3e00-ed71-cac7-04f4-73a0f8825554"},
+                      {"name": "ER RAD", "$text": "3 RED", "typeId": "bd3cb9ee-6552-22a9-8903-6a1eed8895ac"},
+                      {"name": "LR RAD", "$text": "-", "typeId": "2b559c2a-3648-5fe4-f27b-93f86a98ce74"},
+                      {"name": "ER IAD", "$text": "2 BLUE", "typeId": "3886c2a8-617a-7eb8-6317-9672c2afc09d"},
+                      {"name": "LR IAD", "$text": "-", "typeId": "d9fa8499-5035-f1d8-1356-d263560c8a7c"},
+                      {"name": "WARs", "$text": "Blast, Small Arm", "typeId": "237aa327-44c6-68b0-359b-bac0a6eb2673"}
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Command Level",
+            "id": "46297d71-5042-efc1-0960-d7424e799698",
+            "collective": false,
+            "hidden": false,
+            "constraints": [
+              {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+              {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+            ],
+            "selectionEntries": [
+              {
+                "name": "1 2nd Lieutenant",
+                "id": "16e6f14b-0147-03f3-3eb4-8552adec3e01",
+                "collective": false,
+                "hidden": false,
+                "page": 0,
+                "type": "upgrade",
+                "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+                "costs": [{"name": "pts", "typeId": "points", "value": 40}],
+                "rules": [
+                  {
+                    "name": "2nd Lieutenant",
+                    "id": "6dbc2b84-02a2-046f-afb2-25789c3a061a",
+                    "description": "Command Points 3\nCommand Range 4\"\nExperience Level Militia",
+                    "hidden": false,
+                    "page": 0
+                  }
+                ]
+              },
+              {
+                "name": "2 1st Lieutenant",
+                "id": "d77757b6-c9e9-c5d9-8d2f-afe1af199926",
+                "collective": false,
+                "hidden": false,
+                "page": 0,
+                "type": "upgrade",
+                "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+                "costs": [{"name": "pts", "typeId": "points", "value": 75}],
+                "rules": [
+                  {
+                    "name": "1st Lieutenant",
+                    "id": "0f6c0078-853c-38f9-6266-fee68311ff47",
+                    "description": "Command Points 4\nCommand Range 6\"\nExperience Level Regular",
+                    "hidden": false,
+                    "page": 0
+                  }
+                ]
+              },
+              {
+                "name": "4 Major",
+                "id": "7b1b1225-3852-49cb-509b-7490135f6513",
+                "collective": false,
+                "hidden": false,
+                "page": 0,
+                "type": "upgrade",
+                "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+                "costs": [{"name": "pts", "typeId": "points", "value": 150}],
+                "rules": [
+                  {
+                    "name": "Major",
+                    "id": "17091831-7f00-4039-d11d-847c74b65fa1",
+                    "description": "Command Points 6\nCommand Range 8\"\nExperience Level Veteran",
+                    "hidden": false,
+                    "page": 0
+                  }
+                ]
+              },
+              {
+                "name": "3 Captain",
+                "id": "494dcb2c-3225-a3c1-56c5-97b17fc54ba2",
+                "collective": false,
+                "hidden": false,
+                "page": 0,
+                "type": "upgrade",
+                "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+                "costs": [{"name": "pts", "typeId": "points", "value": 100}],
+                "rules": [
+                  {
+                    "name": "Captain",
+                    "id": "058e9449-7b3a-5ec6-a09e-a64c998e6b25",
+                    "description": "Command Points 5\nCommand Range 6\"\nExperience Level Regular",
+                    "hidden": false,
+                    "page": 0
+                  }
+                ]
+              },
+              {
+                "name": "5 Colonel",
+                "id": "cad079a7-6c2c-ea00-e55e-72c7e44a934e",
+                "collective": false,
+                "hidden": false,
+                "page": 0,
+                "type": "upgrade",
+                "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+                "costs": [{"name": "pts", "typeId": "points", "value": 175}],
+                "rules": [
+                  {
+                    "name": "Colonel",
+                    "id": "97929dad-344c-d065-5217-2d26245c05ac",
+                    "description": "Command Points 8\nCommand Range 8\"\nExperience Level Veteran",
+                    "hidden": false,
+                    "page": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Imperial Rifle Section",
+            "id": "f1feea2e-7668-a52c-21a8-24362246a50f",
+            "collective": false,
+            "hidden": false,
+            "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 5}],
+            "selectionEntries": [
+              {
+                "name": "Riflemen",
+                "id": "4e256006-9a85-ea6a-1dca-077170309ba4",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 5}],
+                "costs": [{"name": "pts", "typeId": "points", "value": 15}],
+                "modifiers": [
+                  {
+                    "field": "points",
+                    "type": "increment",
+                    "value": 10,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "d77757b6-c9e9-c5d9-8d2f-afe1af199926",
+                            "field": "selections",
+                            "scope": "f49b3125-56f4-ba41-fe5f-a8e27c3f2f42",
+                            "shared": true,
+                            "type": "equalTo",
+                            "value": 1
+                          },
+                          {
+                            "childId": "494dcb2c-3225-a3c1-56c5-97b17fc54ba2",
+                            "field": "selections",
+                            "scope": "f49b3125-56f4-ba41-fe5f-a8e27c3f2f42",
+                            "shared": true,
+                            "type": "equalTo",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "field": "points",
+                    "type": "increment",
+                    "value": 15,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "7b1b1225-3852-49cb-509b-7490135f6513",
+                            "field": "selections",
+                            "scope": "f49b3125-56f4-ba41-fe5f-a8e27c3f2f42",
+                            "shared": true,
+                            "type": "equalTo",
+                            "value": 1
+                          },
+                          {
+                            "childId": "cad079a7-6c2c-ea00-e55e-72c7e44a934e",
+                            "field": "selections",
+                            "scope": "f49b3125-56f4-ba41-fe5f-a8e27c3f2f42",
+                            "shared": true,
+                            "type": "equalTo",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Flag Signaller",
+                "id": "2be9d0b5-d585-3eae-ea4e-173b4fee1139",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+                "costs": [{"name": "pts", "typeId": "points", "value": 30}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Kanpon Type-17 Launcher",
+        "id": "f8d6b305-618f-3703-5eaa-94e88bbdf39c",
+        "collective": false,
+        "hidden": false,
+        "page": 0,
+        "type": "unit",
+        "categoryLinks": [{"id": "f8d6b305-618f-3703-5eaa-94e88bbdf39c-74a5e1f2-636a-5230-b965-dbb3b4efed2f", "primary": true, "targetId": "74a5e1f2-636a-5230-b965-dbb3b4efed2f"}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 90}],
+        "profiles": [
+          {
+            "name": "Kanpon Type-17 Launcher",
+            "id": "e59d0cf2-758f-c454-2fac-552ac3334554",
+            "hidden": false,
+            "typeId": "8609946f-3efb-43c3-4d26-fd7298048fef",
+            "characteristics": [
+              {"name": "Type", "$text": "Small Ironclad", "typeId": "24ec55bc-8096-3719-f055-359b4a8b6db8"},
+              {"name": "Mv", "$text": "3\"", "typeId": "efa50e5f-c48f-baba-babd-7641c78029fb"},
+              {"name": "Front", "$text": "5", "typeId": "89628dc0-ac75-72b8-44ad-0f7ae9c71956"},
+              {"name": "Sides", "$text": "2", "typeId": "8638bb7e-9bb1-70fb-2a8b-7349d7a8890a"},
+              {"name": "Rear", "$text": "5", "typeId": "ab1dcbec-f111-b0dc-2ec6-dc85cb4e9d5e"},
+              {"name": "HP", "$text": "2", "typeId": "8e70efa2-c560-c355-0ba4-8c7e03b6873c"},
+              {"name": "MARs", "$text": "Move or Fire", "typeId": "0760296f-f788-8de4-051f-e97fee43f772"}
+            ]
+          },
+          {
+            "name": "Type-17 Launcher (AP)",
+            "id": "91be7ab4-fc97-91bd-16b6-ee674bb5bfa4",
+            "hidden": false,
+            "typeId": "8789d001-6582-70fc-f96b-07ace9afe782",
+            "characteristics": [
+              {"name": "ER", "$text": "6-16\"", "typeId": "ba19b0b0-08c0-7343-876e-b48f7f92e0c6"},
+              {"name": "LR", "$text": "17-32\"", "typeId": "aecb3e00-ed71-cac7-04f4-73a0f8825554"},
+              {"name": "ER RAD", "$text": "-", "typeId": "bd3cb9ee-6552-22a9-8903-6a1eed8895ac"},
+              {"name": "LR RAD", "$text": "-", "typeId": "2b559c2a-3648-5fe4-f27b-93f86a98ce74"},
+              {"name": "ER IAD", "$text": "10 RED", "typeId": "3886c2a8-617a-7eb8-6317-9672c2afc09d"},
+              {"name": "LR IAD", "$text": "14 RED", "typeId": "d9fa8499-5035-f1d8-1356-d263560c8a7c"},
+              {"name": "WARs", "$text": "Rapid Fire(2)", "typeId": "237aa327-44c6-68b0-359b-bac0a6eb2673"}
+            ]
+          },
+          {
+            "name": "Type-17 Launcher (HE)",
+            "id": "17c2ea28-a02e-9dc4-92e0-13a277cbb20d",
+            "hidden": false,
+            "typeId": "8789d001-6582-70fc-f96b-07ace9afe782",
+            "characteristics": [
+              {"name": "ER", "$text": "6-16\"", "typeId": "ba19b0b0-08c0-7343-876e-b48f7f92e0c6"},
+              {"name": "LR", "$text": "17-32\"", "typeId": "aecb3e00-ed71-cac7-04f4-73a0f8825554"},
+              {"name": "ER RAD", "$text": "10 RED", "typeId": "bd3cb9ee-6552-22a9-8903-6a1eed8895ac"},
+              {"name": "LR RAD", "$text": "14 RED", "typeId": "2b559c2a-3648-5fe4-f27b-93f86a98ce74"},
+              {"name": "ER IAD", "$text": "-", "typeId": "3886c2a8-617a-7eb8-6317-9672c2afc09d"},
+              {"name": "LR IAD", "$text": "-", "typeId": "d9fa8499-5035-f1d8-1356-d263560c8a7c"},
+              {"name": "WARs", "$text": "IDF Weapon, Rapid Fire(2), Suppression", "typeId": "237aa327-44c6-68b0-359b-bac0a6eb2673"}
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Ashigaru",
+            "id": "94bda998-f9bf-0087-7dcd-2b68927cc8d9",
+            "collective": false,
+            "hidden": false,
+            "page": 0,
+            "type": "unit",
+            "constraints": [
+              {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 2},
+              {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 5}
+            ],
+            "costs": [{"name": "pts", "typeId": "points", "value": 30}],
+            "infoLinks": [{"id": "309bfb7a-f889-02ca-e727-f87ff291c891", "targetId": "30e0f1cc-eff8-85a9-c2ab-f597e9102d56", "type": "rule"}],
+            "profiles": [
+              {
+                "name": "Ashigaru",
+                "id": "592d4ea5-e99a-8be0-3d5c-f7e3793fe1b4",
+                "hidden": false,
+                "page": 0,
+                "typeId": "e768e3db-80af-3cea-995e-437c9f8e317b",
+                "characteristics": [
+                  {"name": "Type", "$text": "Infantry", "typeId": "31feeca1-3b0d-30fa-a65f-c8e60f6860fa"},
+                  {"name": "Mv", "$text": "6\"", "typeId": "2bac851c-6484-a3cb-e0c1-c19b2542fab6"},
+                  {"name": "IR", "$text": "4", "typeId": "3eb329ae-ccae-6674-af6b-d0a9316663c5"},
+                  {"name": "LP", "$text": "1", "typeId": "36a9abaa-8071-3b72-1a62-e7052c2f11bd"},
+                  {"name": "MAD", "$text": "3 BLACK", "typeId": "0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72"},
+                  {"name": "MARs", "$text": "Gas Grenades", "typeId": "a0693fde-b42f-0609-397b-074ee2ae9f9c"}
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Shotgun",
+                "id": "a07a25c2-37c4-be16-da4f-1160f8d49654",
+                "collective": true,
+                "hidden": false,
+                "page": 0,
+                "type": "upgrade",
+                "constraints": [
+                  {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+                  {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+                ],
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+                "profiles": [
+                  {
+                    "name": "‘Dragon’s Breath’ Shotgun",
+                    "id": "3688df53-6f97-4ca4-b26e-6081d50f4075",
+                    "hidden": false,
+                    "page": 0,
+                    "typeId": "8789d001-6582-70fc-f96b-07ace9afe782",
+                    "characteristics": [
+                      {"name": "ER", "typeId": "ba19b0b0-08c0-7343-876e-b48f7f92e0c6"},
+                      {"name": "LR", "typeId": "aecb3e00-ed71-cac7-04f4-73a0f8825554"},
+                      {"name": "ER RAD", "typeId": "bd3cb9ee-6552-22a9-8903-6a1eed8895ac"},
+                      {"name": "LR RAD", "typeId": "2b559c2a-3648-5fe4-f27b-93f86a98ce74"},
+                      {"name": "ER IAD", "typeId": "3886c2a8-617a-7eb8-6317-9672c2afc09d"},
+                      {"name": "LR IAD", "typeId": "d9fa8499-5035-f1d8-1356-d263560c8a7c"},
+                      {"name": "WARs", "typeId": "237aa327-44c6-68b0-359b-bac0a6eb2673"}
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Flag Signaller",
+            "id": "8e418291-36b6-3176-15e2-3e7eb095c188",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+            "costs": [{"name": "pts", "typeId": "points", "value": 30}]
+          },
+          {
+            "name": "Kote Armoured Carrier",
+            "id": "156befc2-2554-964a-ceab-59a24a954e36",
+            "collective": false,
+            "hidden": false,
+            "page": 0,
+            "type": "upgrade",
+            "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+            "costs": [{"name": "pts", "typeId": "points", "value": 40}],
+            "profiles": [
+              {
+                "name": "Kote Armoured Carrier",
+                "id": "764fa8de-b353-1ad6-75f4-579ae028311e",
+                "hidden": false,
+                "page": 0,
+                "typeId": "8609946f-3efb-43c3-4d26-fd7298048fef",
+                "characteristics": [
+                  {"name": "Type", "$text": "Ironclad", "typeId": "24ec55bc-8096-3719-f055-359b4a8b6db8"},
+                  {"name": "Mv", "$text": "8\"", "typeId": "efa50e5f-c48f-baba-babd-7641c78029fb"},
+                  {"name": "Front", "$text": "4", "typeId": "89628dc0-ac75-72b8-44ad-0f7ae9c71956"},
+                  {"name": "Sides", "$text": "4", "typeId": "8638bb7e-9bb1-70fb-2a8b-7349d7a8890a"},
+                  {"name": "Rear", "$text": "3", "typeId": "ab1dcbec-f111-b0dc-2ec6-dc85cb4e9d5e"},
+                  {"name": "HP", "$text": "4", "typeId": "8e70efa2-c560-c355-0ba4-8c7e03b6873c"},
+                  {"name": "MARs", "$text": "Open Topped, Transport(8)", "typeId": "0760296f-f788-8de4-051f-e97fee43f772"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Emplacement",
+            "id": "c1fe92c3-65bb-954e-5bd3-e820494fe890",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+            "costs": [{"name": "pts", "typeId": "points", "value": 10}]
+          }
+        ]
+      },
+      {
+        "name": "Ke-Ho Small Tank",
+        "id": "c5234991-8c19-5f27-06f1-70d437d6f1f1",
+        "collective": false,
+        "hidden": false,
+        "page": 0,
+        "type": "upgrade",
+        "categoryLinks": [{"id": "c5234991-8c19-5f27-06f1-70d437d6f1f1-cdbe79c5-eff5-1446-7dab-048fcce4a65f", "primary": true, "targetId": "cdbe79c5-eff5-1446-7dab-048fcce4a65f"}],
+        "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 350}],
+        "profiles": [
+          {
+            "name": "Ke-Ho Small Tank",
+            "id": "99174d75-39e0-0657-8c94-c70423f96444",
+            "hidden": false,
+            "page": 0,
+            "typeId": "8609946f-3efb-43c3-4d26-fd7298048fef",
+            "characteristics": [
+              {"name": "Type", "$text": "Ironclad", "typeId": "24ec55bc-8096-3719-f055-359b4a8b6db8"},
+              {"name": "Mv", "$text": "6\"", "typeId": "efa50e5f-c48f-baba-babd-7641c78029fb"},
+              {"name": "Front", "$text": "9", "typeId": "89628dc0-ac75-72b8-44ad-0f7ae9c71956"},
+              {"name": "Sides", "$text": "9", "typeId": "8638bb7e-9bb1-70fb-2a8b-7349d7a8890a"},
+              {"name": "Rear", "$text": "9", "typeId": "ab1dcbec-f111-b0dc-2ec6-dc85cb4e9d5e"},
+              {"name": "HP", "$text": "4", "typeId": "8e70efa2-c560-c355-0ba4-8c7e03b6873c"},
+              {"name": "MARs", "$text": "Independent Firing, NCO, Spotter", "typeId": "0760296f-f788-8de4-051f-e97fee43f772"}
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Main Cannon",
+            "id": "4d8df460-b718-9db1-0df7-9fdf5e36f1c7",
+            "collective": false,
+            "hidden": false,
+            "page": 0,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+              {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+            ],
+            "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+            "selectionEntries": [
+              {
+                "name": "Rocket-Howitzer",
+                "id": "b04992a2-c7b6-f91c-fe85-fd3f8983edc0",
+                "collective": false,
+                "hidden": false,
+                "page": 0,
+                "type": "upgrade",
+                "constraints": [
+                  {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+                  {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+                ],
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+                "profiles": [
+                  {
+                    "name": "Rocket-Howitzer",
+                    "id": "308ea0ec-a5d2-94cb-bec4-6c0cbc085147",
+                    "hidden": false,
+                    "page": 0,
+                    "typeId": "8789d001-6582-70fc-f96b-07ace9afe782",
+                    "characteristics": [
+                      {"name": "ER", "$text": "1-16\"", "typeId": "ba19b0b0-08c0-7343-876e-b48f7f92e0c6"},
+                      {"name": "LR", "$text": "17-32\"", "typeId": "aecb3e00-ed71-cac7-04f4-73a0f8825554"},
+                      {"name": "ER RAD", "$text": "10 RED", "typeId": "bd3cb9ee-6552-22a9-8903-6a1eed8895ac"},
+                      {"name": "LR RAD", "$text": "8 RED", "typeId": "2b559c2a-3648-5fe4-f27b-93f86a98ce74"},
+                      {"name": "ER IAD", "$text": "12 RED", "typeId": "3886c2a8-617a-7eb8-6317-9672c2afc09d"},
+                      {"name": "LR IAD", "$text": "12 BLUE", "typeId": "d9fa8499-5035-f1d8-1356-d263560c8a7c"},
+                      {"name": "WARs", "$text": "Blast, IDF Weapon, Spray and Pray, Suppression", "typeId": "237aa327-44c6-68b0-359b-bac0a6eb2673"}
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Sponsons",
+            "id": "d03a49c9-28db-91e9-6043-97b1c309229c",
+            "collective": false,
+            "hidden": false,
+            "page": 0,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+              {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+            ],
+            "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+            "selectionEntries": [
+              {
+                "name": "Type 19 Heavy Machine Gun",
+                "id": "f16c6ad5-41d3-5954-0479-416eb19b07c1",
+                "collective": false,
+                "hidden": false,
+                "page": 0,
+                "type": "upgrade",
+                "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+                "costs": [{"name": "pts", "typeId": "points", "value": 10}],
+                "profiles": [
+                  {
+                    "name": "Type 19 Heavy Machine Gun",
+                    "id": "e3fa4b1f-6a0f-24f2-d014-b538635db41a",
+                    "hidden": false,
+                    "page": 0,
+                    "typeId": "8789d001-6582-70fc-f96b-07ace9afe782",
+                    "characteristics": [
+                      {"name": "ER", "$text": "1-16\"", "typeId": "ba19b0b0-08c0-7343-876e-b48f7f92e0c6"},
+                      {"name": "LR", "$text": "17-32\"", "typeId": "aecb3e00-ed71-cac7-04f4-73a0f8825554"},
+                      {"name": "ER RAD", "$text": "5 BLUE", "typeId": "bd3cb9ee-6552-22a9-8903-6a1eed8895ac"},
+                      {"name": "LR RAD", "$text": "4 BLUE", "typeId": "2b559c2a-3648-5fe4-f27b-93f86a98ce74"},
+                      {"name": "ER IAD", "$text": "8 BLUE", "typeId": "3886c2a8-617a-7eb8-6317-9672c2afc09d"},
+                      {"name": "LR IAD", "$text": "5 BLACK", "typeId": "d9fa8499-5035-f1d8-1356-d263560c8a7c"},
+                      {"name": "WARs", "$text": "Armor Piercing(2)", "typeId": "237aa327-44c6-68b0-359b-bac0a6eb2673"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "'Dragon's Wrath' Flamethrower",
+                "id": "c6b2b698-5001-a11c-aa02-44a53de046c4",
+                "collective": false,
+                "hidden": false,
+                "page": 0,
+                "type": "upgrade",
+                "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+                "profiles": [
+                  {
+                    "name": "'Dragon's Wrath' Flamethrower",
+                    "id": "dea24a1d-809d-7a36-e43d-21b201aeb4f7",
+                    "hidden": false,
+                    "page": 0,
+                    "typeId": "8789d001-6582-70fc-f96b-07ace9afe782",
+                    "characteristics": [
+                      {"name": "ER", "$text": "1-12\"", "typeId": "ba19b0b0-08c0-7343-876e-b48f7f92e0c6"},
+                      {"name": "LR", "$text": "-", "typeId": "aecb3e00-ed71-cac7-04f4-73a0f8825554"},
+                      {"name": "ER RAD", "$text": "8 RED", "typeId": "bd3cb9ee-6552-22a9-8903-6a1eed8895ac"},
+                      {"name": "LR RAD", "$text": "-", "typeId": "2b559c2a-3648-5fe4-f27b-93f86a98ce74"},
+                      {"name": "ER IAD", "$text": "6 BLUE", "typeId": "3886c2a8-617a-7eb8-6317-9672c2afc09d"},
+                      {"name": "LR IAD", "$text": "-", "typeId": "d9fa8499-5035-f1d8-1356-d263560c8a7c"},
+                      {"name": "WARs", "$text": "Blast, Spray and Pray", "typeId": "237aa327-44c6-68b0-359b-bac0a6eb2673"}
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Veteran",
+            "id": "a059d7a7-c458-a56f-709f-bf45c8dc4d4f",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+            "costs": [{"name": "pts", "typeId": "points", "value": 50}]
+          }
+        ]
+      },
+      {
+        "name": "Master Kozo Okinawa",
+        "id": "77f3c3f3-e54f-1a32-1e5b-db8c99417934",
+        "collective": false,
+        "hidden": false,
+        "page": 0,
+        "type": "unit",
+        "categoryLinks": [{"id": "77f3c3f3-e54f-1a32-1e5b-db8c99417934-0baa64cc-e868-23f3-9b04-d0542751e419", "primary": true, "targetId": "0baa64cc-e868-23f3-9b04-d0542751e419"}],
+        "constraints": [{"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "type": "max", "value": 1}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 175}],
+        "entryLinks": [{"id": "4f862912-ff60-e608-621a-f655a453ebbb", "targetId": "24f86636-f7f6-ed32-392a-7b9a45441145", "type": "selectionEntry"}],
+        "infoLinks": [{"id": "5471902b-f4da-fa8f-14b0-dcf7627eda32", "targetId": "30e0f1cc-eff8-85a9-c2ab-f597e9102d56", "type": "rule"}],
+        "modifiers": [
+          {
+            "field": "points",
+            "type": "increment",
+            "value": 3,
+            "repeats": [
+              {
+                "childId": "6f39000f-ff3d-9237-4f51-e7f85e1a3ace",
+                "field": "selections",
+                "repeats": 1,
+                "scope": "77f3c3f3-e54f-1a32-1e5b-db8c99417934",
+                "shared": true,
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Master Kozo Okinawa",
+            "id": "8018eaf6-700e-05f4-6100-3c7a75f80f26",
+            "hidden": false,
+            "page": 0,
+            "typeId": "e768e3db-80af-3cea-995e-437c9f8e317b",
+            "characteristics": [
+              {"name": "Type", "$text": "Infantry - Officer", "typeId": "31feeca1-3b0d-30fa-a65f-c8e60f6860fa"},
+              {"name": "Mv", "$text": "6\"", "typeId": "2bac851c-6484-a3cb-e0c1-c19b2542fab6"},
+              {"name": "IR", "$text": "4", "typeId": "3eb329ae-ccae-6674-af6b-d0a9316663c5"},
+              {"name": "LP", "$text": "4", "typeId": "36a9abaa-8071-3b72-1a62-e7052c2f11bd"},
+              {"name": "MAD", "$text": "4 RED", "typeId": "0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72"},
+              {"name": "MARs", "$text": "Combat Armor(2), Gas Grenades", "typeId": "a0693fde-b42f-0609-397b-074ee2ae9f9c"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Order: Banzai! Banzai! Banzai!",
+            "id": "338437d6-cb65-fbf1-b3ea-f27fe0faf416",
+            "description": "CP = 1\nPasses = 2\nIssued in - Section's Command Segment\nIf the order is passed, the Section gains the Daunting MAR for the Activation",
+            "hidden": false
+          },
+          {
+            "name": "Master Kozo Okinawa",
+            "id": "4c0d54d9-b2e6-4c9e-2797-0f703d90d00e",
+            "description": "Command Points 5\nCommand Range 6\"\nExperience Level Veteran",
+            "hidden": false,
+            "page": 0
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Type 31 Pistol",
+            "id": "42914fb2-511f-6f00-4b8b-d3f0321bad97",
+            "collective": false,
+            "hidden": false,
+            "page": 0,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+              {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+            ],
+            "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+            "profiles": [
+              {
+                "name": "Type 31 Pistol",
+                "id": "8851ad7f-b4ce-5324-6418-e42b58d54aaa",
+                "hidden": false,
+                "page": 0,
+                "typeId": "8789d001-6582-70fc-f96b-07ace9afe782",
+                "characteristics": [
+                  {"name": "ER", "typeId": "ba19b0b0-08c0-7343-876e-b48f7f92e0c6"},
+                  {"name": "LR", "typeId": "aecb3e00-ed71-cac7-04f4-73a0f8825554"},
+                  {"name": "ER RAD", "typeId": "bd3cb9ee-6552-22a9-8903-6a1eed8895ac"},
+                  {"name": "LR RAD", "typeId": "2b559c2a-3648-5fe4-f27b-93f86a98ce74"},
+                  {"name": "ER IAD", "typeId": "3886c2a8-617a-7eb8-6317-9672c2afc09d"},
+                  {"name": "LR IAD", "typeId": "d9fa8499-5035-f1d8-1356-d263560c8a7c"},
+                  {"name": "WARs", "typeId": "237aa327-44c6-68b0-359b-bac0a6eb2673"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Battle Ashigaru",
+            "id": "ef9bdaeb-5b00-0075-21e8-b40e8f22c7e4",
+            "collective": false,
+            "hidden": false,
+            "page": 0,
+            "type": "unit",
+            "categoryLinks": [{"id": "ef9bdaeb-5b00-0075-21e8-b40e8f22c7e4-c3ad262a-edcb-13c7-0883-bbea6d8cd67e", "primary": true, "targetId": "c3ad262a-edcb-13c7-0883-bbea6d8cd67e"}],
+            "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+            "selectionEntries": [
+              {
+                "name": "Ashigaru",
+                "id": "31f98a29-5b68-475c-d469-5da80ccdf859",
+                "collective": false,
+                "hidden": false,
+                "page": 0,
+                "type": "unit",
+                "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 4}],
+                "costs": [{"name": "pts", "typeId": "points", "value": 35}],
+                "infoLinks": [{"id": "1f5c788c-0389-9b73-6045-85d5429455a2", "targetId": "30e0f1cc-eff8-85a9-c2ab-f597e9102d56", "type": "rule"}],
+                "modifiers": [
+                  {
+                    "field": "maxSelections",
+                    "type": "decrement",
+                    "value": 1,
+                    "repeats": [
+                      {
+                        "childId": "305fbebd-2cbd-ca9b-93f9-4d474ffae36c",
+                        "field": "selections",
+                        "repeats": 1,
+                        "scope": "ef9bdaeb-5b00-0075-21e8-b40e8f22c7e4",
+                        "shared": true,
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "points",
+                    "type": "increment",
+                    "value": 3,
+                    "repeats": [
+                      {
+                        "childId": "6f39000f-ff3d-9237-4f51-e7f85e1a3ace",
+                        "field": "selections",
+                        "repeats": 1,
+                        "scope": "ef9bdaeb-5b00-0075-21e8-b40e8f22c7e4",
+                        "shared": true,
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Ashigaru",
+                    "id": "07d1af42-12a3-9678-7c33-4191598c98d1",
+                    "hidden": false,
+                    "page": 0,
+                    "typeId": "e768e3db-80af-3cea-995e-437c9f8e317b",
+                    "characteristics": [
+                      {"name": "Type", "$text": "Infantry", "typeId": "31feeca1-3b0d-30fa-a65f-c8e60f6860fa"},
+                      {"name": "Mv", "$text": "6\"", "typeId": "2bac851c-6484-a3cb-e0c1-c19b2542fab6"},
+                      {"name": "IR", "$text": "4", "typeId": "3eb329ae-ccae-6674-af6b-d0a9316663c5"},
+                      {"name": "LP", "$text": "1", "typeId": "36a9abaa-8071-3b72-1a62-e7052c2f11bd"},
+                      {"name": "MAD", "$text": "3 BLACK", "typeId": "0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72"},
+                      {"name": "MARs", "$text": "Gas Grenades", "typeId": "a0693fde-b42f-0609-397b-074ee2ae9f9c"}
+                    ]
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "name": "Shotgun",
+                    "id": "1fb1ac57-ddee-33a2-d71c-8340a309066f",
+                    "collective": true,
+                    "hidden": false,
+                    "page": 0,
+                    "type": "upgrade",
+                    "constraints": [
+                      {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+                      {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+                    ],
+                    "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+                    "profiles": [
+                      {
+                        "name": "‘Dragon’s Breath’ Shotgun",
+                        "id": "ce872593-cc55-d354-a09d-192ef99e8f45",
+                        "hidden": false,
+                        "page": 0,
+                        "typeId": "8789d001-6582-70fc-f96b-07ace9afe782",
+                        "characteristics": [
+                          {"name": "ER", "typeId": "ba19b0b0-08c0-7343-876e-b48f7f92e0c6"},
+                          {"name": "LR", "typeId": "aecb3e00-ed71-cac7-04f4-73a0f8825554"},
+                          {"name": "ER RAD", "typeId": "bd3cb9ee-6552-22a9-8903-6a1eed8895ac"},
+                          {"name": "LR RAD", "typeId": "2b559c2a-3648-5fe4-f27b-93f86a98ce74"},
+                          {"name": "ER IAD", "typeId": "3886c2a8-617a-7eb8-6317-9672c2afc09d"},
+                          {"name": "LR IAD", "typeId": "d9fa8499-5035-f1d8-1356-d263560c8a7c"},
+                          {"name": "WARs", "typeId": "237aa327-44c6-68b0-359b-bac0a6eb2673"}
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tank Mines",
+                    "id": "ea686e70-7fe4-b3a9-a623-b93c1abe4b71",
+                    "collective": true,
+                    "hidden": false,
+                    "type": "upgrade",
+                    "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+                    "costs": [{"name": "pts", "typeId": "points", "value": 3}]
+                  }
+                ]
+              },
+              {
+                "name": "Army Medic",
+                "id": "abd83c41-9dc2-2ebd-9c12-5da2bf4c15f2",
+                "collective": false,
+                "hidden": false,
+                "page": 0,
+                "type": "model",
+                "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+                "costs": [{"name": "pts", "typeId": "points", "value": 25}],
+                "profiles": [
+                  {
+                    "name": "Army Medic",
+                    "id": "2ddd4c37-9466-db87-3c2c-6c83826d7da9",
+                    "hidden": false,
+                    "page": 0,
+                    "typeId": "e768e3db-80af-3cea-995e-437c9f8e317b",
+                    "characteristics": [
+                      {"name": "Type", "$text": "Infantry", "typeId": "31feeca1-3b0d-30fa-a65f-c8e60f6860fa"},
+                      {"name": "Mv", "$text": "6\"", "typeId": "2bac851c-6484-a3cb-e0c1-c19b2542fab6"},
+                      {"name": "IR", "$text": "3", "typeId": "3eb329ae-ccae-6674-af6b-d0a9316663c5"},
+                      {"name": "LP", "$text": "1", "typeId": "36a9abaa-8071-3b72-1a62-e7052c2f11bd"},
+                      {"name": "MAD", "$text": "1 BLACK", "typeId": "0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72"},
+                      {"name": "MARs", "$text": "Medic(6+)", "typeId": "a0693fde-b42f-0609-397b-074ee2ae9f9c"}
+                    ]
+                  }
+                ],
+                "rules": [{"name": "Medic", "id": "3ad5a874-97b1-0856-a350-3bc241375e3b", "hidden": false, "page": 0}]
+              },
+              {
+                "name": "Ashigaru Specialist",
+                "id": "305fbebd-2cbd-ca9b-93f9-4d474ffae36c",
+                "collective": false,
+                "hidden": false,
+                "page": 0,
+                "type": "unit",
+                "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 3}],
+                "costs": [{"name": "pts", "typeId": "points", "value": 45}],
+                "infoLinks": [{"id": "ff0e6c25-647c-886d-7246-05042fb4b4ba", "targetId": "30e0f1cc-eff8-85a9-c2ab-f597e9102d56", "type": "rule"}],
+                "modifiers": [
+                  {
+                    "field": "points",
+                    "type": "increment",
+                    "value": 3,
+                    "repeats": [
+                      {
+                        "childId": "6f39000f-ff3d-9237-4f51-e7f85e1a3ace",
+                        "field": "selections",
+                        "repeats": 1,
+                        "scope": "ef9bdaeb-5b00-0075-21e8-b40e8f22c7e4",
+                        "shared": true,
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Ashigaru Specialist",
+                    "id": "d1c632f1-85c0-b9f6-749d-28ac504656df",
+                    "hidden": false,
+                    "page": 0,
+                    "typeId": "e768e3db-80af-3cea-995e-437c9f8e317b",
+                    "characteristics": [
+                      {"name": "Type", "$text": "Infantry", "typeId": "31feeca1-3b0d-30fa-a65f-c8e60f6860fa"},
+                      {"name": "Mv", "$text": "6\"", "typeId": "2bac851c-6484-a3cb-e0c1-c19b2542fab6"},
+                      {"name": "IR", "$text": "4", "typeId": "3eb329ae-ccae-6674-af6b-d0a9316663c5"},
+                      {"name": "LP", "$text": "1", "typeId": "36a9abaa-8071-3b72-1a62-e7052c2f11bd"},
+                      {"name": "MAD", "$text": "3 BLACK", "typeId": "0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72"},
+                      {"name": "MARs", "typeId": "a0693fde-b42f-0609-397b-074ee2ae9f9c"}
+                    ]
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "name": "Rocket Projector",
+                    "id": "ebc02d69-5f7e-37c1-a50b-10338ebe950a",
+                    "collective": true,
+                    "hidden": false,
+                    "page": 0,
+                    "type": "upgrade",
+                    "constraints": [
+                      {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+                      {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+                    ],
+                    "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+                    "profiles": [
+                      {
+                        "name": "Rocket Projector",
+                        "id": "b163b2b4-bc53-540e-89c3-d7f1d4370cf3",
+                        "hidden": false,
+                        "page": 0,
+                        "typeId": "8789d001-6582-70fc-f96b-07ace9afe782",
+                        "characteristics": [
+                          {"name": "ER", "typeId": "ba19b0b0-08c0-7343-876e-b48f7f92e0c6"},
+                          {"name": "LR", "typeId": "aecb3e00-ed71-cac7-04f4-73a0f8825554"},
+                          {"name": "ER RAD", "typeId": "bd3cb9ee-6552-22a9-8903-6a1eed8895ac"},
+                          {"name": "LR RAD", "typeId": "2b559c2a-3648-5fe4-f27b-93f86a98ce74"},
+                          {"name": "ER IAD", "typeId": "3886c2a8-617a-7eb8-6317-9672c2afc09d"},
+                          {"name": "LR IAD", "typeId": "d9fa8499-5035-f1d8-1356-d263560c8a7c"},
+                          {"name": "WARs", "typeId": "237aa327-44c6-68b0-359b-bac0a6eb2673"}
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Flag Signaller",
+                "id": "b79aeec6-0c9c-08b5-8d62-d382f7d5f5b6",
+                "collective": false,
+                "hidden": false,
+                "page": 0,
+                "type": "model",
+                "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+                "costs": [{"name": "pts", "typeId": "points", "value": 30}],
+                "modifiers": [
+                  {
+                    "field": "points",
+                    "type": "increment",
+                    "value": 3,
+                    "repeats": [
+                      {
+                        "childId": "6f39000f-ff3d-9237-4f51-e7f85e1a3ace",
+                        "field": "selections",
+                        "repeats": 1,
+                        "scope": "ef9bdaeb-5b00-0075-21e8-b40e8f22c7e4",
+                        "shared": true,
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Flag Signaller",
+                    "id": "8523b809-c538-286e-1c91-863cae600a70",
+                    "hidden": false,
+                    "page": 0,
+                    "typeId": "e768e3db-80af-3cea-995e-437c9f8e317b",
+                    "characteristics": [
+                      {"name": "Type", "$text": "Infantry", "typeId": "31feeca1-3b0d-30fa-a65f-c8e60f6860fa"},
+                      {"name": "Mv", "$text": "6\"", "typeId": "2bac851c-6484-a3cb-e0c1-c19b2542fab6"},
+                      {"name": "IR", "$text": "4", "typeId": "3eb329ae-ccae-6674-af6b-d0a9316663c5"},
+                      {"name": "LP", "$text": "1", "typeId": "36a9abaa-8071-3b72-1a62-e7052c2f11bd"},
+                      {"name": "MAD", "$text": "1 BLACK", "typeId": "0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72"},
+                      {"name": "MARs", "$text": "Medic(6+)", "typeId": "a0693fde-b42f-0609-397b-074ee2ae9f9c"}
+                    ]
+                  }
+                ],
+                "rules": [{"name": "Flag Signaller", "id": "59b1b45c-e01d-9d5c-134b-e37e4d9a3357", "hidden": false, "page": 0}],
+                "selectionEntries": [
+                  {
+                    "name": "Shotgun",
+                    "id": "69e9b898-b9f5-f9ad-dfa1-d637d171c18c",
+                    "collective": true,
+                    "hidden": false,
+                    "page": 0,
+                    "type": "upgrade",
+                    "constraints": [
+                      {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+                      {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+                    ],
+                    "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+                    "profiles": [
+                      {
+                        "name": "‘Dragon’s Breath’ Shotgun",
+                        "id": "37776189-2958-593a-4b2f-6afe96f5e347",
+                        "hidden": false,
+                        "page": 0,
+                        "typeId": "8789d001-6582-70fc-f96b-07ace9afe782",
+                        "characteristics": [
+                          {"name": "ER", "typeId": "ba19b0b0-08c0-7343-876e-b48f7f92e0c6"},
+                          {"name": "LR", "typeId": "aecb3e00-ed71-cac7-04f4-73a0f8825554"},
+                          {"name": "ER RAD", "typeId": "bd3cb9ee-6552-22a9-8903-6a1eed8895ac"},
+                          {"name": "LR RAD", "typeId": "2b559c2a-3648-5fe4-f27b-93f86a98ce74"},
+                          {"name": "ER IAD", "typeId": "3886c2a8-617a-7eb8-6317-9672c2afc09d"},
+                          {"name": "LR IAD", "typeId": "d9fa8499-5035-f1d8-1356-d263560c8a7c"},
+                          {"name": "WARs", "typeId": "237aa327-44c6-68b0-359b-bac0a6eb2673"}
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "Field Equipment",
+                "id": "8332efbc-f63b-863a-1a2d-c602beeb279b",
+                "collective": false,
+                "hidden": false,
+                "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+                "selectionEntries": [
+                  {
+                    "name": "Tank mines",
+                    "id": "6f39000f-ff3d-9237-4f51-e7f85e1a3ace",
+                    "collective": false,
+                    "hidden": false,
+                    "type": "upgrade",
+                    "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+                    "costs": [{"name": "pts", "typeId": "points", "value": 0}]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Kote Armoured Carrier",
+            "id": "d1b37688-00bf-5b62-28e8-c2b504cba33c",
+            "collective": false,
+            "hidden": false,
+            "page": 0,
+            "type": "upgrade",
+            "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+            "costs": [{"name": "pts", "typeId": "points", "value": 40}],
+            "profiles": [
+              {
+                "name": "Kote Armoured Carrier",
+                "id": "f19b0643-09ef-695f-3c4e-89a1a3a3bec6",
+                "hidden": false,
+                "page": 0,
+                "typeId": "8609946f-3efb-43c3-4d26-fd7298048fef",
+                "characteristics": [
+                  {"name": "Type", "$text": "Ironclad", "typeId": "24ec55bc-8096-3719-f055-359b4a8b6db8"},
+                  {"name": "Mv", "$text": "8\"", "typeId": "efa50e5f-c48f-baba-babd-7641c78029fb"},
+                  {"name": "Front", "$text": "4", "typeId": "89628dc0-ac75-72b8-44ad-0f7ae9c71956"},
+                  {"name": "Sides", "$text": "4", "typeId": "8638bb7e-9bb1-70fb-2a8b-7349d7a8890a"},
+                  {"name": "Rear", "$text": "3", "typeId": "ab1dcbec-f111-b0dc-2ec6-dc85cb4e9d5e"},
+                  {"name": "HP", "$text": "4", "typeId": "8e70efa2-c560-c355-0ba4-8c7e03b6873c"},
+                  {"name": "MARs", "$text": "Open Topped, Transport(8)", "typeId": "0760296f-f788-8de4-051f-e97fee43f772"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Madame Taipan",
+            "id": "92435868-7dc9-6814-a6b1-51f67243b9e8",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+            "costs": [{"name": "pts", "typeId": "points", "value": 70}],
+            "profiles": [
+              {
+                "name": "Madame Taipan",
+                "id": "630294b5-d31e-72a3-5b20-146d98820564",
+                "hidden": false,
+                "typeId": "e768e3db-80af-3cea-995e-437c9f8e317b",
+                "characteristics": [
+                  {"name": "Type", "$text": "Infantry", "typeId": "31feeca1-3b0d-30fa-a65f-c8e60f6860fa"},
+                  {"name": "Mv", "$text": "7\"", "typeId": "2bac851c-6484-a3cb-e0c1-c19b2542fab6"},
+                  {"name": "IR", "$text": "4", "typeId": "3eb329ae-ccae-6674-af6b-d0a9316663c5"},
+                  {"name": "LP", "$text": "3", "typeId": "36a9abaa-8071-3b72-1a62-e7052c2f11bd"},
+                  {"name": "MAD", "$text": "5 RED", "typeId": "0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72"},
+                  {"name": "MARs", "$text": "Rapid Fire(D3,Shuriken), Smoke Launcher(2), Sniper, Swift Strike", "typeId": "a0693fde-b42f-0609-397b-074ee2ae9f9c"}
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Shuriken",
+                "id": "f50fc128-5083-ff8c-f9f5-cacdfe998c6d",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [
+                  {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+                  {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+                ],
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+                "profiles": [
+                  {
+                    "name": "Shuriken",
+                    "id": "e3b6c46b-e97c-f11b-78eb-10f58833914f",
+                    "hidden": false,
+                    "typeId": "8789d001-6582-70fc-f96b-07ace9afe782",
+                    "characteristics": [
+                      {"name": "ER", "$text": "0-8\"", "typeId": "ba19b0b0-08c0-7343-876e-b48f7f92e0c6"},
+                      {"name": "LR", "$text": "-", "typeId": "aecb3e00-ed71-cac7-04f4-73a0f8825554"},
+                      {"name": "ER RAD", "$text": "2 BLUE", "typeId": "bd3cb9ee-6552-22a9-8903-6a1eed8895ac"},
+                      {"name": "LR RAD", "$text": "-", "typeId": "2b559c2a-3648-5fe4-f27b-93f86a98ce74"},
+                      {"name": "ER IAD", "$text": "-", "typeId": "3886c2a8-617a-7eb8-6317-9672c2afc09d"},
+                      {"name": "LR IAD", "$text": "-", "typeId": "d9fa8499-5035-f1d8-1356-d263560c8a7c"},
+                      {"name": "WARs", "$text": "CQB Weapon, Small Arm", "typeId": "237aa327-44c6-68b0-359b-bac0a6eb2673"}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Medium Machine Guns Section",
+        "id": "24acc6d2-ead9-7ced-a7d1-63eaa687ffe5",
+        "collective": false,
+        "hidden": false,
+        "page": 0,
+        "type": "upgrade",
+        "categoryLinks": [{"id": "24acc6d2-ead9-7ced-a7d1-63eaa687ffe5-74a5e1f2-636a-5230-b965-dbb3b4efed2f", "primary": true, "targetId": "74a5e1f2-636a-5230-b965-dbb3b4efed2f"}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+        "modifiers": [
+          {
+            "field": "points",
+            "type": "increment",
+            "value": 5,
+            "conditions": [
+              {
+                "childId": "e5c308fa-a9ef-9c81-1ad2-59c89f24d2cb",
+                "field": "selections",
+                "scope": "24acc6d2-ead9-7ced-a7d1-63eaa687ffe5",
+                "shared": true,
+                "type": "equalTo",
+                "value": 2
+              }
+            ]
+          },
+          {
+            "field": "points",
+            "type": "increment",
+            "value": 15,
+            "conditions": [
+              {
+                "childId": "e5c308fa-a9ef-9c81-1ad2-59c89f24d2cb",
+                "field": "selections",
+                "scope": "24acc6d2-ead9-7ced-a7d1-63eaa687ffe5",
+                "shared": true,
+                "type": "equalTo",
+                "value": 3
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Gun Team",
+            "id": "e5c308fa-a9ef-9c81-1ad2-59c89f24d2cb",
+            "collective": false,
+            "hidden": false,
+            "page": 0,
+            "type": "upgrade",
+            "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 3}],
+            "costs": [{"name": "pts", "typeId": "points", "value": 50}],
+            "modifiers": [
+              {
+                "field": "points",
+                "type": "increment",
+                "value": 20,
+                "repeats": [
+                  {
+                    "childId": "3cfb642a-e87c-c832-b8ce-a246f077ae19",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "24acc6d2-ead9-7ced-a7d1-63eaa687ffe5",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Gun Team",
+                "id": "f15e2806-2e9d-b5dc-54da-bd53003aeace",
+                "hidden": false,
+                "page": 0,
+                "typeId": "e768e3db-80af-3cea-995e-437c9f8e317b",
+                "characteristics": [
+                  {"name": "Type", "$text": "Infantry", "typeId": "31feeca1-3b0d-30fa-a65f-c8e60f6860fa"},
+                  {"name": "Mv", "$text": "5\"", "typeId": "2bac851c-6484-a3cb-e0c1-c19b2542fab6"},
+                  {"name": "IR", "$text": "4", "typeId": "3eb329ae-ccae-6674-af6b-d0a9316663c5"},
+                  {"name": "LP", "$text": "2", "typeId": "36a9abaa-8071-3b72-1a62-e7052c2f11bd"},
+                  {"name": "MAD", "$text": "3 BLACK", "typeId": "0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72"},
+                  {"name": "MARs", "$text": "Cumbersome, Move or Fire", "typeId": "a0693fde-b42f-0609-397b-074ee2ae9f9c"}
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Type 9 ‘Fireball’",
+                "id": "a491c314-aaa7-d304-fa0a-74d907a9bb07",
+                "collective": true,
+                "hidden": false,
+                "page": 0,
+                "type": "upgrade",
+                "constraints": [
+                  {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+                  {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+                ],
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+                "profiles": [
+                  {
+                    "name": "Type 9 ‘Fireball’",
+                    "id": "3c4b51db-206e-8ace-e91f-28bf1ac8bd0f",
+                    "hidden": false,
+                    "page": 0,
+                    "typeId": "8789d001-6582-70fc-f96b-07ace9afe782",
+                    "characteristics": [
+                      {"name": "ER", "$text": "1-16\"", "typeId": "ba19b0b0-08c0-7343-876e-b48f7f92e0c6"},
+                      {"name": "LR", "$text": "17-24\"", "typeId": "aecb3e00-ed71-cac7-04f4-73a0f8825554"},
+                      {"name": "ER RAD", "$text": "5 RED", "typeId": "bd3cb9ee-6552-22a9-8903-6a1eed8895ac"},
+                      {"name": "LR RAD", "$text": "5 BLUE", "typeId": "2b559c2a-3648-5fe4-f27b-93f86a98ce74"},
+                      {"name": "ER IAD", "$text": "3 BLUE", "typeId": "3886c2a8-617a-7eb8-6317-9672c2afc09d"},
+                      {"name": "LR IAD", "$text": "-", "typeId": "d9fa8499-5035-f1d8-1356-d263560c8a7c"},
+                      {"name": "WARs", "$text": "Spray and Pray", "typeId": "237aa327-44c6-68b0-359b-bac0a6eb2673"}
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Ashigaru",
+            "id": "6eb16689-cb8a-5ec5-23c3-c17f7d4576c6",
+            "collective": false,
+            "hidden": false,
+            "page": 0,
+            "type": "unit",
+            "constraints": [
+              {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 2},
+              {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 9}
+            ],
+            "costs": [{"name": "pts", "typeId": "points", "value": 20}],
+            "infoLinks": [{"id": "baea22d1-833a-27c4-e6bb-c3e09d26338b", "targetId": "30e0f1cc-eff8-85a9-c2ab-f597e9102d56", "type": "rule"}],
+            "modifiers": [
+              {
+                "field": "minSelections",
+                "type": "decrement",
+                "value": 2,
+                "conditions": [
+                  {
+                    "childId": "e5c308fa-a9ef-9c81-1ad2-59c89f24d2cb",
+                    "field": "selections",
+                    "scope": "24acc6d2-ead9-7ced-a7d1-63eaa687ffe5",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  }
+                ]
+              },
+              {
+                "field": "maxSelections",
+                "type": "decrement",
+                "value": 2,
+                "repeats": [
+                  {
+                    "childId": "e5c308fa-a9ef-9c81-1ad2-59c89f24d2cb",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "24acc6d2-ead9-7ced-a7d1-63eaa687ffe5",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "points",
+                "type": "increment",
+                "value": 10,
+                "conditions": [
+                  {
+                    "childId": "af01a43e-54e0-1063-3904-2105e6b3a6e4",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ],
+                "repeats": [
+                  {
+                    "childId": "3cfb642a-e87c-c832-b8ce-a246f077ae19",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "24acc6d2-ead9-7ced-a7d1-63eaa687ffe5",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Ashigaru",
+                "id": "eca051f3-35a0-7da7-47d9-3dceef42e814",
+                "hidden": false,
+                "page": 0,
+                "typeId": "e768e3db-80af-3cea-995e-437c9f8e317b",
+                "characteristics": [
+                  {"name": "Type", "$text": "Infantry", "typeId": "31feeca1-3b0d-30fa-a65f-c8e60f6860fa"},
+                  {"name": "Mv", "$text": "6\"", "typeId": "2bac851c-6484-a3cb-e0c1-c19b2542fab6"},
+                  {"name": "IR", "$text": "4", "typeId": "3eb329ae-ccae-6674-af6b-d0a9316663c5"},
+                  {"name": "LP", "$text": "1", "typeId": "36a9abaa-8071-3b72-1a62-e7052c2f11bd"},
+                  {"name": "MAD", "$text": "3 BLACK", "typeId": "0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72"},
+                  {"name": "MARs", "$text": "Gas Grenades", "typeId": "a0693fde-b42f-0609-397b-074ee2ae9f9c"}
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Shotgun",
+                "id": "ff3a3ef3-0c6f-cc22-cbdc-5d31616190df",
+                "collective": true,
+                "hidden": false,
+                "page": 0,
+                "type": "upgrade",
+                "constraints": [
+                  {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+                  {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+                ],
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+                "profiles": [
+                  {
+                    "name": "‘Dragon’s Breath’ Shotgun",
+                    "id": "0b8ad990-7ae1-0253-8087-3fae985ff295",
+                    "hidden": false,
+                    "page": 0,
+                    "typeId": "8789d001-6582-70fc-f96b-07ace9afe782",
+                    "characteristics": [
+                      {"name": "ER", "typeId": "ba19b0b0-08c0-7343-876e-b48f7f92e0c6"},
+                      {"name": "LR", "typeId": "aecb3e00-ed71-cac7-04f4-73a0f8825554"},
+                      {"name": "ER RAD", "typeId": "bd3cb9ee-6552-22a9-8903-6a1eed8895ac"},
+                      {"name": "LR RAD", "typeId": "2b559c2a-3648-5fe4-f27b-93f86a98ce74"},
+                      {"name": "ER IAD", "typeId": "3886c2a8-617a-7eb8-6317-9672c2afc09d"},
+                      {"name": "LR IAD", "typeId": "d9fa8499-5035-f1d8-1356-d263560c8a7c"},
+                      {"name": "WARs", "typeId": "237aa327-44c6-68b0-359b-bac0a6eb2673"}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Experience Level",
+            "id": "94a90745-e886-4f54-371f-15b32298645d",
+            "collective": false,
+            "hidden": false,
+            "constraints": [
+              {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+              {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+            ],
+            "selectionEntries": [
+              {
+                "name": "Militia",
+                "id": "2526f235-4822-2253-19af-96a804247b68",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}]
+              },
+              {
+                "name": "Regular",
+                "id": "3cfb642a-e87c-c832-b8ce-a246f077ae19",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Rocket Corps Section",
+        "id": "29a89599-2058-2e81-098a-9d20f9d2c02c",
+        "collective": false,
+        "hidden": false,
+        "page": 0,
+        "type": "unit",
+        "categoryLinks": [{"id": "29a89599-2058-2e81-098a-9d20f9d2c02c-03401ec5-35d9-8c9b-039a-c47d317173fd", "primary": true, "targetId": "03401ec5-35d9-8c9b-039a-c47d317173fd"}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+        "selectionEntries": [
+          {
+            "name": "Samurai",
+            "id": "81cd66b3-a60b-6c33-8a43-0020c858994f",
+            "collective": false,
+            "hidden": false,
+            "page": 0,
+            "type": "unit",
+            "constraints": [
+              {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 2},
+              {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 4}
+            ],
+            "costs": [{"name": "pts", "typeId": "points", "value": 65}],
+            "infoLinks": [{"id": "4b4a0b64-8a8b-1576-cc41-be3841b616a1", "targetId": "30e0f1cc-eff8-85a9-c2ab-f597e9102d56", "type": "rule"}],
+            "profiles": [
+              {
+                "name": "Samurai",
+                "id": "306a2bc4-2e0e-2f9f-4a81-0d2c5e76f740",
+                "hidden": false,
+                "page": 0,
+                "typeId": "e768e3db-80af-3cea-995e-437c9f8e317b",
+                "characteristics": [
+                  {"name": "Type", "$text": "Jetpack", "typeId": "31feeca1-3b0d-30fa-a65f-c8e60f6860fa"},
+                  {"name": "Mv", "$text": "9\"", "typeId": "2bac851c-6484-a3cb-e0c1-c19b2542fab6"},
+                  {"name": "IR", "$text": "4", "typeId": "3eb329ae-ccae-6674-af6b-d0a9316663c5"},
+                  {"name": "LP", "$text": "2", "typeId": "36a9abaa-8071-3b72-1a62-e7052c2f11bd"},
+                  {"name": "MAD", "$text": "5 BLUE", "typeId": "0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72"},
+                  {"name": "MARs", "$text": "Battle Hardened, Combat Armor(1), Daunting, Gas Grenades", "typeId": "a0693fde-b42f-0609-397b-074ee2ae9f9c"}
+                ]
+              }
+            ],
+            "rules": [
+              {
+                "name": "Combat Armour",
+                "id": "b5bc3675-a3e5-fa21-462a-a8108c1cff48",
+                "description": "A model with Combat Armour increases its Injury Rating by ONE when engaged in Melee. This model is also considered to have the Duelling Amour MAR.",
+                "hidden": false,
+                "page": 0
+              },
+              {"name": "Daunting", "id": "59caed02-7201-a440-ac74-18c5b661f648", "hidden": false, "page": 0}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ryuma Steambike Section",
+        "id": "8fee5206-cdff-069b-ae8f-bde64d4e895b",
+        "collective": false,
+        "hidden": false,
+        "page": 0,
+        "type": "unit",
+        "categoryLinks": [{"id": "8fee5206-cdff-069b-ae8f-bde64d4e895b-03401ec5-35d9-8c9b-039a-c47d317173fd", "primary": true, "targetId": "03401ec5-35d9-8c9b-039a-c47d317173fd"}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+        "selectionEntries": [
+          {
+            "name": "Ryuma Steambike",
+            "id": "b477d35d-28dd-3b18-fb2e-41e7e1d21812",
+            "collective": false,
+            "hidden": false,
+            "page": 0,
+            "type": "unit",
+            "constraints": [
+              {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 2},
+              {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 4}
+            ],
+            "costs": [{"name": "pts", "typeId": "points", "value": 75}],
+            "infoLinks": [{"id": "d01b5038-5f29-ebb8-1f47-a99beda1d652", "targetId": "30e0f1cc-eff8-85a9-c2ab-f597e9102d56", "type": "rule"}],
+            "modifiers": [
+              {
+                "field": "points",
+                "type": "increment",
+                "value": 15,
+                "repeats": [
+                  {
+                    "childId": "2aee2295-5fc2-31d8-2dc2-7e553bb6b55c",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "8fee5206-cdff-069b-ae8f-bde64d4e895b",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Ryuma Steambike",
+                "id": "939e9844-6012-854c-f359-8b3d8bff28dd",
+                "hidden": false,
+                "page": 0,
+                "typeId": "e768e3db-80af-3cea-995e-437c9f8e317b",
+                "characteristics": [
+                  {"name": "Type", "$text": "Cavalry", "typeId": "31feeca1-3b0d-30fa-a65f-c8e60f6860fa"},
+                  {"name": "Mv", "$text": "10\"", "typeId": "2bac851c-6484-a3cb-e0c1-c19b2542fab6"},
+                  {"name": "IR", "$text": "4", "typeId": "3eb329ae-ccae-6674-af6b-d0a9316663c5"},
+                  {"name": "LP", "$text": "2", "typeId": "36a9abaa-8071-3b72-1a62-e7052c2f11bd"},
+                  {"name": "MAD", "$text": "5 RED", "typeId": "0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72"},
+                  {"name": "MARs", "$text": "Gas Grenades, Skimming", "typeId": "a0693fde-b42f-0609-397b-074ee2ae9f9c"}
+                ]
+              }
+            ],
+            "rules": [
+              {
+                "name": "Skimming",
+                "id": "2660c5c2-e812-6a82-21a2-e85bc3c237a4",
+                "description": "A model with the Skimming MAR CAN move over models and Terrain which is Man-Height or smaller without any Movement Penalty. Additionally, a model with the Skimming MAR is considered to have the Towering MAR.",
+                "hidden": false,
+                "page": 0
+              },
+              {
+                "name": "Towering",
+                "id": "719b2257-9b7c-1659-11eb-65ca8c1b4f35",
+                "description": "The Line of Sight to and from models with the Towering MAR is NOT Blocked by intervening man-height models. A model with the Towering MAR is considered to be larger than man-height.",
+                "hidden": false,
+                "page": 0
+              },
+              {
+                "name": "Ryuma Steambike",
+                "id": "e5d52ad5-fc27-027b-755f-586af1bb6a6d",
+                "description": "The Ryuma Steambike Section may move through enemy Sections as per the rules for Ironclad Collisions on Pg. 108 of the Rule Book, and may still make a Hit and Run attack when doing so.",
+                "hidden": false
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Tiger's Claw Shotgun",
+                "id": "0ab95209-05c4-4e7e-10bb-6a4b48656969",
+                "collective": true,
+                "hidden": false,
+                "page": 0,
+                "type": "upgrade",
+                "constraints": [
+                  {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+                  {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+                ],
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+                "profiles": [
+                  {
+                    "name": "Tiger's Claw Shotgun",
+                    "id": "4df14cc8-8d89-57ab-130c-fd5f4ad5243f",
+                    "hidden": false,
+                    "page": 0,
+                    "typeId": "8789d001-6582-70fc-f96b-07ace9afe782",
+                    "characteristics": [
+                      {"name": "ER", "$text": "1-8\"", "typeId": "ba19b0b0-08c0-7343-876e-b48f7f92e0c6"},
+                      {"name": "LR", "$text": "-", "typeId": "aecb3e00-ed71-cac7-04f4-73a0f8825554"},
+                      {"name": "ER RAD", "$text": "3 RED", "typeId": "bd3cb9ee-6552-22a9-8903-6a1eed8895ac"},
+                      {"name": "LR RAD", "$text": "-", "typeId": "2b559c2a-3648-5fe4-f27b-93f86a98ce74"},
+                      {"name": "ER IAD", "$text": "2 BLUE", "typeId": "3886c2a8-617a-7eb8-6317-9672c2afc09d"},
+                      {"name": "LR IAD", "$text": "-", "typeId": "d9fa8499-5035-f1d8-1356-d263560c8a7c"},
+                      {"name": "WARs", "$text": "Blast, Small Arms", "typeId": "237aa327-44c6-68b0-359b-bac0a6eb2673"}
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Veteran",
+            "id": "2aee2295-5fc2-31d8-2dc2-7e553bb6b55c",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+            "costs": [{"name": "pts", "typeId": "points", "value": 0}]
+          }
+        ]
+      },
+      {
+        "name": "Samurai Officer Section",
+        "id": "1abca116-5a72-642e-cb4a-eae2cc5dbb6d",
+        "collective": false,
+        "hidden": false,
+        "page": 0,
+        "type": "unit",
+        "categoryLinks": [{"id": "1abca116-5a72-642e-cb4a-eae2cc5dbb6d-0baa64cc-e868-23f3-9b04-d0542751e419", "primary": true, "targetId": "0baa64cc-e868-23f3-9b04-d0542751e419"}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+        "selectionEntries": [
+          {
+            "name": "Master Samurai",
+            "id": "c9d5bd62-4409-f3ad-165e-2492e9d579b8",
+            "collective": false,
+            "hidden": false,
+            "page": 0,
+            "type": "unit",
+            "constraints": [
+              {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+              {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+            ],
+            "costs": [{"name": "pts", "typeId": "points", "value": 200}],
+            "entryLinks": [{"id": "225cf1f4-f4a8-927f-9197-134fa52154cd", "targetId": "24f86636-f7f6-ed32-392a-7b9a45441145", "type": "selectionEntry"}],
+            "infoLinks": [{"id": "0c74fd08-8a36-31de-1f26-a5a81e3fc1a8", "targetId": "30e0f1cc-eff8-85a9-c2ab-f597e9102d56", "type": "rule"}],
+            "profiles": [
+              {
+                "name": "Master Samurai",
+                "id": "8d0bcd79-83b0-b87d-eb5a-1a55cb9dcc8b",
+                "hidden": false,
+                "page": 0,
+                "typeId": "e768e3db-80af-3cea-995e-437c9f8e317b",
+                "characteristics": [
+                  {"name": "Type", "$text": "Aeronaut - Officer (Tier 1)", "typeId": "31feeca1-3b0d-30fa-a65f-c8e60f6860fa"},
+                  {"name": "Mv", "$text": "5\"/9\"", "typeId": "2bac851c-6484-a3cb-e0c1-c19b2542fab6"},
+                  {"name": "IR", "$text": "4", "typeId": "3eb329ae-ccae-6674-af6b-d0a9316663c5"},
+                  {"name": "LP", "$text": "3", "typeId": "36a9abaa-8071-3b72-1a62-e7052c2f11bd"},
+                  {"name": "MAD", "$text": "4 RED", "typeId": "0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72"},
+                  {"name": "MARs", "$text": "Combat Armour, Daunting, Gas Grenades, Way of the Warrior", "typeId": "a0693fde-b42f-0609-397b-074ee2ae9f9c"}
+                ]
+              }
+            ],
+            "rules": [
+              {
+                "name": "Combat Armour",
+                "id": "77a0f760-0fa6-786f-37fa-47be4217815a",
+                "description": "A model with Combat Armour increases its Injury Rating by ONE when engaged in Melee. This model is also considered to have the Duelling Amour MAR.",
+                "hidden": false,
+                "page": 0
+              },
+              {"name": "Daunting", "id": "6816b21b-86b4-f26c-e4d1-3d912142cf26", "hidden": false, "page": 0},
+              {"name": "Way of the Warrior", "id": "2acad229-64bd-8250-8bea-89052386b3d7", "hidden": false, "page": 0}
+            ]
+          },
+          {
+            "name": "Samurai",
+            "id": "aa57dfda-0e59-2d93-d7cc-9c81f4f55931",
+            "collective": false,
+            "hidden": false,
+            "page": 0,
+            "type": "unit",
+            "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 3}],
+            "costs": [{"name": "pts", "typeId": "points", "value": 65}],
+            "infoLinks": [{"id": "8fa13782-0aa5-b4a4-4eaf-40d50d9109c7", "targetId": "30e0f1cc-eff8-85a9-c2ab-f597e9102d56", "type": "rule"}],
+            "profiles": [
+              {
+                "name": "Samurai",
+                "id": "71572561-9a32-3ddc-0d4f-88206c60c874",
+                "hidden": false,
+                "page": 0,
+                "typeId": "e768e3db-80af-3cea-995e-437c9f8e317b",
+                "characteristics": [
+                  {"name": "Type", "$text": "Aeronaut", "typeId": "31feeca1-3b0d-30fa-a65f-c8e60f6860fa"},
+                  {"name": "Mv", "$text": "5\"/9\"", "typeId": "2bac851c-6484-a3cb-e0c1-c19b2542fab6"},
+                  {"name": "IR", "$text": "4", "typeId": "3eb329ae-ccae-6674-af6b-d0a9316663c5"},
+                  {"name": "LP", "$text": "2", "typeId": "36a9abaa-8071-3b72-1a62-e7052c2f11bd"},
+                  {"name": "MAD", "$text": "4 BLUE", "typeId": "0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72"},
+                  {"name": "MARs", "$text": "Combat Armour, Daunting, Gas Grenades", "typeId": "a0693fde-b42f-0609-397b-074ee2ae9f9c"}
+                ]
+              }
+            ],
+            "rules": [
+              {
+                "name": "Combat Armour",
+                "id": "05926b57-d88d-bd98-6211-e1b9bf1c3cc9",
+                "description": "A model with Combat Armour increases its Injury Rating by ONE when engaged in Melee. This model is also considered to have the Duelling Amour MAR.",
+                "hidden": false,
+                "page": 0
+              },
+              {"name": "Daunting", "id": "12c0a370-3255-a204-4475-e0a1c1114f40", "hidden": false, "page": 0}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Shinobi Assassin Section",
+        "id": "c0c33cf8-5c09-7a56-63df-23ad0e409899",
+        "collective": false,
+        "hidden": false,
+        "page": 0,
+        "type": "unit",
+        "categoryLinks": [{"id": "c0c33cf8-5c09-7a56-63df-23ad0e409899-03401ec5-35d9-8c9b-039a-c47d317173fd", "primary": true, "targetId": "03401ec5-35d9-8c9b-039a-c47d317173fd"}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+        "selectionEntries": [
+          {
+            "name": "Shinobi Assassin",
+            "id": "1b9c87f4-e7d7-047f-4c19-31625ebe6407",
+            "collective": false,
+            "hidden": false,
+            "page": 0,
+            "type": "unit",
+            "constraints": [
+              {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 3},
+              {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 4}
+            ],
+            "costs": [{"name": "pts", "typeId": "points", "value": 60}],
+            "modifiers": [
+              {
+                "field": "maxSelections",
+                "type": "decrement",
+                "value": 1,
+                "repeats": [
+                  {
+                    "childId": "a86efb21-68fd-5182-16a8-82735601a2f8",
+                    "field": "selections",
+                    "repeats": 1,
+                    "scope": "c0c33cf8-5c09-7a56-63df-23ad0e409899",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Shinobi Assassin",
+                "id": "8f4284a2-36af-fef0-cf2f-2ddb17ee84f7",
+                "hidden": false,
+                "page": 0,
+                "typeId": "e768e3db-80af-3cea-995e-437c9f8e317b",
+                "characteristics": [
+                  {"name": "Type", "$text": "Infantry", "typeId": "31feeca1-3b0d-30fa-a65f-c8e60f6860fa"},
+                  {"name": "Mv", "$text": "7\"", "typeId": "2bac851c-6484-a3cb-e0c1-c19b2542fab6"},
+                  {"name": "IR", "$text": "3", "typeId": "3eb329ae-ccae-6674-af6b-d0a9316663c5"},
+                  {"name": "LP", "$text": "2", "typeId": "36a9abaa-8071-3b72-1a62-e7052c2f11bd"},
+                  {"name": "MAD", "$text": "5 RED", "typeId": "0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72"},
+                  {"name": "MARs", "$text": "Battle Hardened, Infiltrators, Stealthy, Swift Strike", "typeId": "a0693fde-b42f-0609-397b-074ee2ae9f9c"}
+                ]
+              }
+            ],
+            "rules": [
+              {"name": "Battle Hardened", "id": "536984ae-6646-caa1-d508-fc4b424c5fd7", "hidden": false, "page": 0},
+              {"name": "Infiltrators", "id": "9fd751d4-64b3-3343-e44d-de32dfaab885", "description": "Infiltrators", "hidden": false, "page": 0},
+              {
+                "name": "Stealthy",
+                "id": "1f823f30-77bd-8df3-ab7b-e0959b87912e",
+                "description": "If a Section with the Stealth MAR is declared the target of a Ranged Attack, the firing Section must take a Command Test on BLUE Dice requiring a number of successes equal to the Range Band the target Section is within.\nIf the Command Test is passed the Section CAN proceed with their Ranged Attack as normal. If the Command Test is failed the firing section CANNOT target the Section with the Stealth MAR. The firing section CAN then target another valid Section.\nIf a Section contains one or more models without the Stealth MAR, the MAR is ignored.",
+                "hidden": false,
+                "page": 0
+              },
+              {
+                "name": "Swift Strike",
+                "id": "2a546087-a803-2cea-eace-8a95e7d36495",
+                "description": "A model with the Swift Strike MAR Strikes First in the first round of a Melee.",
+                "hidden": false,
+                "page": 0
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Shuriken",
+                "id": "c5dd86a4-6eb5-6dda-87d3-40868a989e70",
+                "collective": true,
+                "hidden": false,
+                "page": 0,
+                "type": "upgrade",
+                "constraints": [
+                  {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+                  {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+                ],
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+                "profiles": [
+                  {
+                    "name": "Shuriken",
+                    "id": "c1cc2335-346b-b7c6-07b4-33ae97efa021",
+                    "hidden": false,
+                    "page": 0,
+                    "typeId": "8789d001-6582-70fc-f96b-07ace9afe782",
+                    "characteristics": [
+                      {"name": "ER", "$text": "0-8\"", "typeId": "ba19b0b0-08c0-7343-876e-b48f7f92e0c6"},
+                      {"name": "LR", "$text": "-", "typeId": "aecb3e00-ed71-cac7-04f4-73a0f8825554"},
+                      {"name": "ER RAD", "$text": "2 BLUE", "typeId": "bd3cb9ee-6552-22a9-8903-6a1eed8895ac"},
+                      {"name": "LR RAD", "$text": "-", "typeId": "2b559c2a-3648-5fe4-f27b-93f86a98ce74"},
+                      {"name": "ER IAD", "$text": "-", "typeId": "3886c2a8-617a-7eb8-6317-9672c2afc09d"},
+                      {"name": "LR IAD", "$text": "-", "typeId": "d9fa8499-5035-f1d8-1356-d263560c8a7c"},
+                      {"name": "WARs", "$text": "CQB Weapon, Small Arm", "typeId": "237aa327-44c6-68b0-359b-bac0a6eb2673"}
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Shinobi Kyudoka",
+            "id": "a86efb21-68fd-5182-16a8-82735601a2f8",
+            "collective": false,
+            "hidden": false,
+            "page": 0,
+            "type": "model",
+            "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+            "costs": [{"name": "pts", "typeId": "points", "value": 80}],
+            "profiles": [
+              {
+                "name": "Shinobi Kyudoka",
+                "id": "ec6f5092-721c-0f44-5cc2-8902886d7898",
+                "hidden": false,
+                "page": 0,
+                "typeId": "e768e3db-80af-3cea-995e-437c9f8e317b",
+                "characteristics": [
+                  {"name": "Type", "$text": "Infantry", "typeId": "31feeca1-3b0d-30fa-a65f-c8e60f6860fa"},
+                  {"name": "Mv", "$text": "7\"", "typeId": "2bac851c-6484-a3cb-e0c1-c19b2542fab6"},
+                  {"name": "IR", "$text": "3", "typeId": "3eb329ae-ccae-6674-af6b-d0a9316663c5"},
+                  {"name": "LP", "$text": "2", "typeId": "36a9abaa-8071-3b72-1a62-e7052c2f11bd"},
+                  {"name": "MAD", "$text": "3 RED", "typeId": "0321ef1d-9ff7-e3fd-57e7-cb1a6ad7ca72"},
+                  {"name": "MARs", "$text": "Battle Hardened, Infiltrators, Smoke Launcher(2), Stealthy, Swift Strike", "typeId": "a0693fde-b42f-0609-397b-074ee2ae9f9c"}
+                ]
+              }
+            ],
+            "rules": [
+              {"name": "Smoke Launcher", "id": "2e1c3c13-1319-a22f-aecb-893a075f0a58", "hidden": false, "page": 0},
+              {
+                "name": "Sniper",
+                "id": "266c1515-449f-85b5-eba7-14350b690307",
+                "description": "Any models in a Section with the Sniper MAR may make a separate Ranged Attack to the rest of their Section. If they do so, the model with the Sniper MAR may DOUBLE their Weapon’s number of Attack Dice for their separate Ranged Attack.",
+                "hidden": false,
+                "page": 0
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Yumi",
+                "id": "af5aa07b-151e-9ce7-b7e0-fd2a1a1444c2",
+                "collective": false,
+                "hidden": false,
+                "page": 0,
+                "type": "upgrade",
+                "constraints": [
+                  {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+                  {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+                ],
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+                "profiles": [
+                  {
+                    "name": "Yumi",
+                    "id": "70d17c37-97eb-d5e2-d951-1457628067b4",
+                    "hidden": false,
+                    "page": 0,
+                    "typeId": "8789d001-6582-70fc-f96b-07ace9afe782",
+                    "characteristics": [
+                      {"name": "ER", "$text": "1-16\"", "typeId": "ba19b0b0-08c0-7343-876e-b48f7f92e0c6"},
+                      {"name": "LR", "$text": "17-24\"", "typeId": "aecb3e00-ed71-cac7-04f4-73a0f8825554"},
+                      {"name": "ER RAD", "$text": "5 BLUE", "typeId": "bd3cb9ee-6552-22a9-8903-6a1eed8895ac"},
+                      {"name": "LR RAD", "$text": "4 BLUE", "typeId": "2b559c2a-3648-5fe4-f27b-93f86a98ce74"},
+                      {"name": "ER IAD", "$text": "-", "typeId": "3886c2a8-617a-7eb8-6317-9672c2afc09d"},
+                      {"name": "LR IAD", "$text": "-", "typeId": "d9fa8499-5035-f1d8-1356-d263560c8a7c"},
+                      {"name": "WARs", "$text": "Small Arm, Sniper", "typeId": "237aa327-44c6-68b0-359b-bac0a6eb2673"}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedRules": [
+      {
+        "name": "Duelling Armour",
+        "id": "84f2a0c8-6da6-8df7-0dca-5c786819c5de",
+        "description": "A model with the Duelling Armour MAR may reduce the number of successes rolled by its opponent during any Duel by ONE.",
+        "hidden": false,
+        "page": 0
+      },
+      {
+        "name": "Gas Grenades",
+        "id": "30e0f1cc-eff8-85a9-c2ab-f597e9102d56",
+        "description": "Models behind or within Defensible Terrain do NOT Strike First if one or more of the models they are in Melee with have the Gas Grenades MAR.",
+        "hidden": false,
+        "page": 0
+      },
+      {
+        "name": "Way of the Warrior",
+        "id": "800135a6-a49e-9276-1206-0922c9519079",
+        "description": "A model with the Way of the Warrior MAR MUST always accept a Challenge declared against them.",
+        "hidden": false,
+        "page": 0
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Platoon Leader",
+        "id": "24f86636-f7f6-ed32-392a-7b9a45441145",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 1},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 0}]
+      }
+    ]
+  }
+}
